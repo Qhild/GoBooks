@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100284CB1CC20F6300BAE0D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 100284CA1CC20F6300BAE0D8 /* main.m */; };
+		100284CE1CC20F6300BAE0D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 100284CD1CC20F6300BAE0D8 /* AppDelegate.m */; };
+		100284D11CC20F6300BAE0D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100284D01CC20F6300BAE0D8 /* ViewController.m */; };
+		100284D41CC20F6300BAE0D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100284D21CC20F6300BAE0D8 /* Main.storyboard */; };
+		100284D71CC20F6300BAE0D8 /* GoBooks.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 100284D51CC20F6300BAE0D8 /* GoBooks.xcdatamodeld */; };
+		100284D91CC20F6300BAE0D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100284D81CC20F6300BAE0D8 /* Assets.xcassets */; };
+		100284DC1CC20F6300BAE0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */; };
+		100284E71CC20F6300BAE0D8 /* GoBooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100284E61CC20F6300BAE0D8 /* GoBooksTests.m */; };
+		100284F21CC20F6300BAE0D8 /* GoBooksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100284F11CC20F6300BAE0D8 /* GoBooksUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		100284E31CC20F6300BAE0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100284BE1CC20F6300BAE0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100284C51CC20F6300BAE0D8;
+			remoteInfo = GoBooks;
+		};
+		100284EE1CC20F6300BAE0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100284BE1CC20F6300BAE0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 100284C51CC20F6300BAE0D8;
+			remoteInfo = GoBooks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		100284C61CC20F6300BAE0D8 /* GoBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		100284CA1CC20F6300BAE0D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		100284CC1CC20F6300BAE0D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		100284CD1CC20F6300BAE0D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		100284CF1CC20F6300BAE0D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		100284D01CC20F6300BAE0D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		100284D31CC20F6300BAE0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		100284D61CC20F6300BAE0D8 /* GoBooks.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoBooks.xcdatamodel; sourceTree = "<group>"; };
+		100284D81CC20F6300BAE0D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		100284DB1CC20F6300BAE0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		100284DD1CC20F6300BAE0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100284E21CC20F6300BAE0D8 /* GoBooksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoBooksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		100284E61CC20F6300BAE0D8 /* GoBooksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoBooksTests.m; sourceTree = "<group>"; };
+		100284E81CC20F6300BAE0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100284ED1CC20F6300BAE0D8 /* GoBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		100284F11CC20F6300BAE0D8 /* GoBooksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoBooksUITests.m; sourceTree = "<group>"; };
+		100284F31CC20F6300BAE0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		100284C31CC20F6300BAE0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100284DF1CC20F6300BAE0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100284EA1CC20F6300BAE0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100284BD1CC20F6300BAE0D8 = {
+			isa = PBXGroup;
+			children = (
+				100284C81CC20F6300BAE0D8 /* GoBooks */,
+				100284E51CC20F6300BAE0D8 /* GoBooksTests */,
+				100284F01CC20F6300BAE0D8 /* GoBooksUITests */,
+				100284C71CC20F6300BAE0D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		100284C71CC20F6300BAE0D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				100284C61CC20F6300BAE0D8 /* GoBooks.app */,
+				100284E21CC20F6300BAE0D8 /* GoBooksTests.xctest */,
+				100284ED1CC20F6300BAE0D8 /* GoBooksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100284C81CC20F6300BAE0D8 /* GoBooks */ = {
+			isa = PBXGroup;
+			children = (
+				100284CC1CC20F6300BAE0D8 /* AppDelegate.h */,
+				100284CD1CC20F6300BAE0D8 /* AppDelegate.m */,
+				100284CF1CC20F6300BAE0D8 /* ViewController.h */,
+				100284D01CC20F6300BAE0D8 /* ViewController.m */,
+				100284D21CC20F6300BAE0D8 /* Main.storyboard */,
+				100284D81CC20F6300BAE0D8 /* Assets.xcassets */,
+				100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */,
+				100284DD1CC20F6300BAE0D8 /* Info.plist */,
+				100284D51CC20F6300BAE0D8 /* GoBooks.xcdatamodeld */,
+				100284C91CC20F6300BAE0D8 /* Supporting Files */,
+			);
+			path = GoBooks;
+			sourceTree = "<group>";
+		};
+		100284C91CC20F6300BAE0D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				100284CA1CC20F6300BAE0D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		100284E51CC20F6300BAE0D8 /* GoBooksTests */ = {
+			isa = PBXGroup;
+			children = (
+				100284E61CC20F6300BAE0D8 /* GoBooksTests.m */,
+				100284E81CC20F6300BAE0D8 /* Info.plist */,
+			);
+			path = GoBooksTests;
+			sourceTree = "<group>";
+		};
+		100284F01CC20F6300BAE0D8 /* GoBooksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				100284F11CC20F6300BAE0D8 /* GoBooksUITests.m */,
+				100284F31CC20F6300BAE0D8 /* Info.plist */,
+			);
+			path = GoBooksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		100284C51CC20F6300BAE0D8 /* GoBooks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100284F61CC20F6300BAE0D8 /* Build configuration list for PBXNativeTarget "GoBooks" */;
+			buildPhases = (
+				100284C21CC20F6300BAE0D8 /* Sources */,
+				100284C31CC20F6300BAE0D8 /* Frameworks */,
+				100284C41CC20F6300BAE0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoBooks;
+			productName = GoBooks;
+			productReference = 100284C61CC20F6300BAE0D8 /* GoBooks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100284E11CC20F6300BAE0D8 /* GoBooksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100284F91CC20F6300BAE0D8 /* Build configuration list for PBXNativeTarget "GoBooksTests" */;
+			buildPhases = (
+				100284DE1CC20F6300BAE0D8 /* Sources */,
+				100284DF1CC20F6300BAE0D8 /* Frameworks */,
+				100284E01CC20F6300BAE0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				100284E41CC20F6300BAE0D8 /* PBXTargetDependency */,
+			);
+			name = GoBooksTests;
+			productName = GoBooksTests;
+			productReference = 100284E21CC20F6300BAE0D8 /* GoBooksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		100284EC1CC20F6300BAE0D8 /* GoBooksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100284FC1CC20F6300BAE0D8 /* Build configuration list for PBXNativeTarget "GoBooksUITests" */;
+			buildPhases = (
+				100284E91CC20F6300BAE0D8 /* Sources */,
+				100284EA1CC20F6300BAE0D8 /* Frameworks */,
+				100284EB1CC20F6300BAE0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				100284EF1CC20F6300BAE0D8 /* PBXTargetDependency */,
+			);
+			name = GoBooksUITests;
+			productName = GoBooksUITests;
+			productReference = 100284ED1CC20F6300BAE0D8 /* GoBooksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100284BE1CC20F6300BAE0D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GBSeventh;
+				TargetAttributes = {
+					100284C51CC20F6300BAE0D8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					100284E11CC20F6300BAE0D8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 100284C51CC20F6300BAE0D8;
+					};
+					100284EC1CC20F6300BAE0D8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 100284C51CC20F6300BAE0D8;
+					};
+				};
+			};
+			buildConfigurationList = 100284C11CC20F6300BAE0D8 /* Build configuration list for PBXProject "GoBooks" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100284BD1CC20F6300BAE0D8;
+			productRefGroup = 100284C71CC20F6300BAE0D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				100284C51CC20F6300BAE0D8 /* GoBooks */,
+				100284E11CC20F6300BAE0D8 /* GoBooksTests */,
+				100284EC1CC20F6300BAE0D8 /* GoBooksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		100284C41CC20F6300BAE0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100284DC1CC20F6300BAE0D8 /* LaunchScreen.storyboard in Resources */,
+				100284D91CC20F6300BAE0D8 /* Assets.xcassets in Resources */,
+				100284D41CC20F6300BAE0D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100284E01CC20F6300BAE0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100284EB1CC20F6300BAE0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		100284C21CC20F6300BAE0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100284D71CC20F6300BAE0D8 /* GoBooks.xcdatamodeld in Sources */,
+				100284D11CC20F6300BAE0D8 /* ViewController.m in Sources */,
+				100284CE1CC20F6300BAE0D8 /* AppDelegate.m in Sources */,
+				100284CB1CC20F6300BAE0D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100284DE1CC20F6300BAE0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100284E71CC20F6300BAE0D8 /* GoBooksTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100284E91CC20F6300BAE0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100284F21CC20F6300BAE0D8 /* GoBooksUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		100284E41CC20F6300BAE0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100284C51CC20F6300BAE0D8 /* GoBooks */;
+			targetProxy = 100284E31CC20F6300BAE0D8 /* PBXContainerItemProxy */;
+		};
+		100284EF1CC20F6300BAE0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 100284C51CC20F6300BAE0D8 /* GoBooks */;
+			targetProxy = 100284EE1CC20F6300BAE0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		100284D21CC20F6300BAE0D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				100284D31CC20F6300BAE0D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				100284DB1CC20F6300BAE0D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		100284F41CC20F6300BAE0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		100284F51CC20F6300BAE0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		100284F71CC20F6300BAE0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gbs.GoBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		100284F81CC20F6300BAE0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoBooks/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gbs.GoBooks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		100284FA1CC20F6300BAE0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gbs.GoBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoBooks.app/GoBooks";
+			};
+			name = Debug;
+		};
+		100284FB1CC20F6300BAE0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoBooksTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gbs.GoBooksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoBooks.app/GoBooks";
+			};
+			name = Release;
+		};
+		100284FD1CC20F6300BAE0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gbs.GoBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoBooks;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		100284FE1CC20F6300BAE0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GoBooksUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gbs.GoBooksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GoBooks;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100284C11CC20F6300BAE0D8 /* Build configuration list for PBXProject "GoBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100284F41CC20F6300BAE0D8 /* Debug */,
+				100284F51CC20F6300BAE0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100284F61CC20F6300BAE0D8 /* Build configuration list for PBXNativeTarget "GoBooks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100284F71CC20F6300BAE0D8 /* Debug */,
+				100284F81CC20F6300BAE0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		100284F91CC20F6300BAE0D8 /* Build configuration list for PBXNativeTarget "GoBooksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100284FA1CC20F6300BAE0D8 /* Debug */,
+				100284FB1CC20F6300BAE0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		100284FC1CC20F6300BAE0D8 /* Build configuration list for PBXNativeTarget "GoBooksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100284FD1CC20F6300BAE0D8 /* Debug */,
+				100284FE1CC20F6300BAE0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		100284D51CC20F6300BAE0D8 /* GoBooks.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				100284D61CC20F6300BAE0D8 /* GoBooks.xcdatamodel */,
+			);
+			currentVersion = 100284D61CC20F6300BAE0D8 /* GoBooks.xcdatamodel */;
+			path = GoBooks.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 100284BE1CC20F6300BAE0D8 /* Project object */;
+}
