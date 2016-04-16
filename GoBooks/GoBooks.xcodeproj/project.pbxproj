@@ -16,6 +16,8 @@
 		100284DC1CC20F6300BAE0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */; };
 		100284E71CC20F6300BAE0D8 /* GoBooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100284E61CC20F6300BAE0D8 /* GoBooksTests.m */; };
 		100284F21CC20F6300BAE0D8 /* GoBooksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100284F11CC20F6300BAE0D8 /* GoBooksUITests.m */; };
+		100285071CC21AAB00BAE0D8 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 100285061CC21AAB00BAE0D8 /* Utilities.m */; };
+		1002850A1CC21AC200BAE0D8 /* StorageMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 100285091CC21AC200BAE0D8 /* StorageMgr.m */; };
 		432C17FA311A2E166C5ED735 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D0DA90D1638131C39320C9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +56,11 @@
 		100284ED1CC20F6300BAE0D8 /* GoBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100284F11CC20F6300BAE0D8 /* GoBooksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoBooksUITests.m; sourceTree = "<group>"; };
 		100284F31CC20F6300BAE0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100285051CC21AAB00BAE0D8 /* Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utilities.h; sourceTree = "<group>"; };
+		100285061CC21AAB00BAE0D8 /* Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utilities.m; sourceTree = "<group>"; };
+		100285081CC21AC200BAE0D8 /* StorageMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageMgr.h; sourceTree = "<group>"; };
+		100285091CC21AC200BAE0D8 /* StorageMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageMgr.m; sourceTree = "<group>"; };
+		1002850B1CC21AD300BAE0D8 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		424E5137E9578C86BC9A9B10 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9043EA0DCFD1DD59BFAAABC4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A6D0DA90D1638131C39320C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,15 +117,12 @@
 		100284C81CC20F6300BAE0D8 /* GoBooks */ = {
 			isa = PBXGroup;
 			children = (
-				100284CC1CC20F6300BAE0D8 /* AppDelegate.h */,
-				100284CD1CC20F6300BAE0D8 /* AppDelegate.m */,
-				100284CF1CC20F6300BAE0D8 /* ViewController.h */,
-				100284D01CC20F6300BAE0D8 /* ViewController.m */,
-				100284D21CC20F6300BAE0D8 /* Main.storyboard */,
-				100284D81CC20F6300BAE0D8 /* Assets.xcassets */,
-				100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */,
-				100284DD1CC20F6300BAE0D8 /* Info.plist */,
-				100284D51CC20F6300BAE0D8 /* GoBooks.xcdatamodeld */,
+				100284FF1CC219CD00BAE0D8 /* Utilities */,
+				100285001CC219F500BAE0D8 /* Constant */,
+				100285011CC21A0A00BAE0D8 /* 3rd */,
+				100285021CC21A1200BAE0D8 /* Model */,
+				100285031CC21A1E00BAE0D8 /* View */,
+				100285041CC21A2700BAE0D8 /* Controller */,
 				100284C91CC20F6300BAE0D8 /* Supporting Files */,
 			);
 			path = GoBooks;
@@ -127,6 +131,9 @@
 		100284C91CC20F6300BAE0D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				100284CC1CC20F6300BAE0D8 /* AppDelegate.h */,
+				100284DD1CC20F6300BAE0D8 /* Info.plist */,
+				100284CD1CC20F6300BAE0D8 /* AppDelegate.m */,
 				100284CA1CC20F6300BAE0D8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -148,6 +155,59 @@
 				100284F31CC20F6300BAE0D8 /* Info.plist */,
 			);
 			path = GoBooksUITests;
+			sourceTree = "<group>";
+		};
+		100284FF1CC219CD00BAE0D8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				100285051CC21AAB00BAE0D8 /* Utilities.h */,
+				100285061CC21AAB00BAE0D8 /* Utilities.m */,
+				100285081CC21AC200BAE0D8 /* StorageMgr.h */,
+				100285091CC21AC200BAE0D8 /* StorageMgr.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		100285001CC219F500BAE0D8 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				1002850B1CC21AD300BAE0D8 /* Constants.h */,
+			);
+			name = Constant;
+			sourceTree = "<group>";
+		};
+		100285011CC21A0A00BAE0D8 /* 3rd */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = 3rd;
+			sourceTree = "<group>";
+		};
+		100285021CC21A1200BAE0D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				100284D51CC20F6300BAE0D8 /* GoBooks.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		100285031CC21A1E00BAE0D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				100284D21CC20F6300BAE0D8 /* Main.storyboard */,
+				100284D81CC20F6300BAE0D8 /* Assets.xcassets */,
+				100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		100285041CC21A2700BAE0D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				100284CF1CC20F6300BAE0D8 /* ViewController.h */,
+				100284D01CC20F6300BAE0D8 /* ViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		4D4370BFC7A1B185C6772F1C /* Pods */ = {
@@ -352,6 +412,8 @@
 				100284D11CC20F6300BAE0D8 /* ViewController.m in Sources */,
 				100284CE1CC20F6300BAE0D8 /* AppDelegate.m in Sources */,
 				100284CB1CC20F6300BAE0D8 /* main.m in Sources */,
+				1002850A1CC21AC200BAE0D8 /* StorageMgr.m in Sources */,
+				100285071CC21AAB00BAE0D8 /* Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
