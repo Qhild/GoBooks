@@ -18,6 +18,17 @@
 		100284F21CC20F6300BAE0D8 /* GoBooksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100284F11CC20F6300BAE0D8 /* GoBooksUITests.m */; };
 		100285071CC21AAB00BAE0D8 /* Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 100285061CC21AAB00BAE0D8 /* Utilities.m */; };
 		1002850A1CC21AC200BAE0D8 /* StorageMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = 100285091CC21AC200BAE0D8 /* StorageMgr.m */; };
+		1002850F1CC21E8400BAE0D8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1002850D1CC21E8400BAE0D8 /* Bolts.framework */; };
+		100285101CC21E8400BAE0D8 /* Bolts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1002850D1CC21E8400BAE0D8 /* Bolts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		100285111CC21E8400BAE0D8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1002850E1CC21E8400BAE0D8 /* Parse.framework */; };
+		100285121CC21E8400BAE0D8 /* Parse.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1002850E1CC21E8400BAE0D8 /* Parse.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		100285171CC21EB800BAE0D8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285161CC21EB800BAE0D8 /* libsqlite3.tbd */; };
+		100285191CC21EE700BAE0D8 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285181CC21EE700BAE0D8 /* StoreKit.framework */; };
+		1002851B1CC21EF600BAE0D8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1002851A1CC21EF600BAE0D8 /* CoreLocation.framework */; };
+		1002851D1CC21F0000BAE0D8 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1002851C1CC21F0000BAE0D8 /* Accounts.framework */; };
+		1002851F1CC21F0800BAE0D8 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1002851E1CC21F0800BAE0D8 /* Social.framework */; };
+		100285211CC21F2100BAE0D8 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285201CC21F2100BAE0D8 /* SystemConfiguration.framework */; };
+		100285231CC21F3300BAE0D8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285221CC21F3300BAE0D8 /* AudioToolbox.framework */; };
 		432C17FA311A2E166C5ED735 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D0DA90D1638131C39320C9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +48,21 @@
 			remoteInfo = GoBooks;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		100285131CC21E8500BAE0D8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				100285121CC21E8400BAE0D8 /* Parse.framework in Embed Frameworks */,
+				100285101CC21E8400BAE0D8 /* Bolts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		100284C61CC20F6300BAE0D8 /* GoBooks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoBooks.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +87,17 @@
 		100285081CC21AC200BAE0D8 /* StorageMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StorageMgr.h; sourceTree = "<group>"; };
 		100285091CC21AC200BAE0D8 /* StorageMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StorageMgr.m; sourceTree = "<group>"; };
 		1002850B1CC21AD300BAE0D8 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1002850C1CC21C9F00BAE0D8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1002850D1CC21E8400BAE0D8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = GoBooks/Bolts.framework; sourceTree = "<group>"; };
+		1002850E1CC21E8400BAE0D8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = GoBooks/Parse.framework; sourceTree = "<group>"; };
+		100285141CC21EA500BAE0D8 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		100285161CC21EB800BAE0D8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		100285181CC21EE700BAE0D8 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		1002851A1CC21EF600BAE0D8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		1002851C1CC21F0000BAE0D8 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		1002851E1CC21F0800BAE0D8 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		100285201CC21F2100BAE0D8 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		100285221CC21F3300BAE0D8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		424E5137E9578C86BC9A9B10 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9043EA0DCFD1DD59BFAAABC4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A6D0DA90D1638131C39320C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -71,7 +108,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100285231CC21F3300BAE0D8 /* AudioToolbox.framework in Frameworks */,
+				100285211CC21F2100BAE0D8 /* SystemConfiguration.framework in Frameworks */,
+				1002851F1CC21F0800BAE0D8 /* Social.framework in Frameworks */,
+				1002851D1CC21F0000BAE0D8 /* Accounts.framework in Frameworks */,
+				1002851B1CC21EF600BAE0D8 /* CoreLocation.framework in Frameworks */,
+				100285191CC21EE700BAE0D8 /* StoreKit.framework in Frameworks */,
+				100285171CC21EB800BAE0D8 /* libsqlite3.tbd in Frameworks */,
 				432C17FA311A2E166C5ED735 /* libPods.a in Frameworks */,
+				100285111CC21E8400BAE0D8 /* Parse.framework in Frameworks */,
+				1002850F1CC21E8400BAE0D8 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +141,8 @@
 		100284BD1CC20F6300BAE0D8 = {
 			isa = PBXGroup;
 			children = (
+				1002850D1CC21E8400BAE0D8 /* Bolts.framework */,
+				1002850E1CC21E8400BAE0D8 /* Parse.framework */,
 				100284C81CC20F6300BAE0D8 /* GoBooks */,
 				100284E51CC20F6300BAE0D8 /* GoBooksTests */,
 				100284F01CC20F6300BAE0D8 /* GoBooksUITests */,
@@ -135,6 +183,7 @@
 				100284DD1CC20F6300BAE0D8 /* Info.plist */,
 				100284CD1CC20F6300BAE0D8 /* AppDelegate.m */,
 				100284CA1CC20F6300BAE0D8 /* main.m */,
+				1002850C1CC21C9F00BAE0D8 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -222,6 +271,14 @@
 		EDFA2D35FAE080301070A52E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				100285221CC21F3300BAE0D8 /* AudioToolbox.framework */,
+				100285201CC21F2100BAE0D8 /* SystemConfiguration.framework */,
+				1002851E1CC21F0800BAE0D8 /* Social.framework */,
+				1002851C1CC21F0000BAE0D8 /* Accounts.framework */,
+				1002851A1CC21EF600BAE0D8 /* CoreLocation.framework */,
+				100285181CC21EE700BAE0D8 /* StoreKit.framework */,
+				100285161CC21EB800BAE0D8 /* libsqlite3.tbd */,
+				100285141CC21EA500BAE0D8 /* libsqlite3.0.tbd */,
 				A6D0DA90D1638131C39320C9 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -240,6 +297,7 @@
 				100284C41CC20F6300BAE0D8 /* Resources */,
 				ECAC48473D6C963DBB409E38 /* Embed Pods Frameworks */,
 				C79044A468018CEBE3E7F716 /* Copy Pods Resources */,
+				100285131CC21E8500BAE0D8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -553,6 +611,11 @@
 			baseConfigurationReference = 9043EA0DCFD1DD59BFAAABC4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoBooks",
+				);
+				GCC_PREFIX_HEADER = GoBooks/PrefixHeader.pch;
 				INFOPLIST_FILE = GoBooks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gbs.GoBooks;
@@ -565,6 +628,11 @@
 			baseConfigurationReference = 424E5137E9578C86BC9A9B10 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GoBooks",
+				);
+				GCC_PREFIX_HEADER = GoBooks/PrefixHeader.pch;
 				INFOPLIST_FILE = GoBooks/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = gbs.GoBooks;
