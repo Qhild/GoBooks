@@ -16,6 +16,7 @@
 		100284DC1CC20F6300BAE0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */; };
 		100284E71CC20F6300BAE0D8 /* GoBooksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100284E61CC20F6300BAE0D8 /* GoBooksTests.m */; };
 		100284F21CC20F6300BAE0D8 /* GoBooksUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100284F11CC20F6300BAE0D8 /* GoBooksUITests.m */; };
+		432C17FA311A2E166C5ED735 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D0DA90D1638131C39320C9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,9 @@
 		100284ED1CC20F6300BAE0D8 /* GoBooksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoBooksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100284F11CC20F6300BAE0D8 /* GoBooksUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoBooksUITests.m; sourceTree = "<group>"; };
 		100284F31CC20F6300BAE0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		424E5137E9578C86BC9A9B10 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9043EA0DCFD1DD59BFAAABC4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		A6D0DA90D1638131C39320C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				432C17FA311A2E166C5ED735 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +92,8 @@
 				100284E51CC20F6300BAE0D8 /* GoBooksTests */,
 				100284F01CC20F6300BAE0D8 /* GoBooksUITests */,
 				100284C71CC20F6300BAE0D8 /* Products */,
+				4D4370BFC7A1B185C6772F1C /* Pods */,
+				EDFA2D35FAE080301070A52E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +150,23 @@
 			path = GoBooksUITests;
 			sourceTree = "<group>";
 		};
+		4D4370BFC7A1B185C6772F1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9043EA0DCFD1DD59BFAAABC4 /* Pods.debug.xcconfig */,
+				424E5137E9578C86BC9A9B10 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EDFA2D35FAE080301070A52E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6D0DA90D1638131C39320C9 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 100284F61CC20F6300BAE0D8 /* Build configuration list for PBXNativeTarget "GoBooks" */;
 			buildPhases = (
+				B50911A990153B605331F216 /* Check Pods Manifest.lock */,
 				100284C21CC20F6300BAE0D8 /* Sources */,
 				100284C31CC20F6300BAE0D8 /* Frameworks */,
 				100284C41CC20F6300BAE0D8 /* Resources */,
+				ECAC48473D6C963DBB409E38 /* Embed Pods Frameworks */,
+				C79044A468018CEBE3E7F716 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +294,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B50911A990153B605331F216 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C79044A468018CEBE3E7F716 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECAC48473D6C963DBB409E38 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		100284C21CC20F6300BAE0D8 /* Sources */ = {
@@ -413,6 +488,7 @@
 		};
 		100284F71CC20F6300BAE0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9043EA0DCFD1DD59BFAAABC4 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoBooks/Info.plist;
@@ -424,6 +500,7 @@
 		};
 		100284F81CC20F6300BAE0D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424E5137E9578C86BC9A9B10 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GoBooks/Info.plist;
@@ -500,6 +577,7 @@
 				100284F81CC20F6300BAE0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		100284F91CC20F6300BAE0D8 /* Build configuration list for PBXNativeTarget "GoBooksTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +586,7 @@
 				100284FB1CC20F6300BAE0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		100284FC1CC20F6300BAE0D8 /* Build configuration list for PBXNativeTarget "GoBooksUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +595,7 @@
 				100284FE1CC20F6300BAE0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
