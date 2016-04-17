@@ -1,23 +1,22 @@
 //
-//  MineViewController.m
+//  zhaoViewController.m
 //  GoBooks
 //
 //  Created by xu on 16/4/17.
 //  Copyright © 2016年 GBSeventh. All rights reserved.
 //
 
-#import "MineViewController.h"
+#import "zhaoViewController.h"
 
-@interface MineViewController ()
+@interface zhaoViewController ()
 
 @end
 
-@implementation MineViewController
+@implementation zhaoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,4 +33,5 @@
     // Pass the selected object to the new view controller.
 }
 */
+
 @end

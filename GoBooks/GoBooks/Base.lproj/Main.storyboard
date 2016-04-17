@@ -29,7 +29,7 @@
         <!--个人中心-->
         <scene sceneID="eqk-pp-JTj">
             <objects>
-                <viewController id="jrM-qj-Q9N" customClass="MineViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Mine" id="jrM-qj-Q9N" customClass="MineViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QKI-9x-Qra"/>
                         <viewControllerLayoutGuide type="bottom" id="dXj-81-G2I"/>
@@ -84,7 +84,7 @@
         <!--登录-->
         <scene sceneID="90L-OQ-kkZ">
             <objects>
-                <viewController id="UEz-hI-8d6" customClass="SiginViewController" sceneMemberID="viewController">
+                <viewController hidesBottomBarWhenPushed="YES" id="UEz-hI-8d6" customClass="SiginViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jyw-fU-PBJ"/>
                         <viewControllerLayoutGuide type="bottom" id="njE-pC-vkN"/>
@@ -161,7 +161,7 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <nil key="simulatedBottomBarMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="passwordTF" destination="RrU-Jf-R3R" id="8sg-EI-g20"/>
@@ -175,7 +175,7 @@
         <!--找回密码-->
         <scene sceneID="7fw-5y-GrH">
             <objects>
-                <viewController id="9IV-1t-nt0" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="zhao" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9IV-1t-nt0" customClass="zhaoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0V2-VR-cPK"/>
                         <viewControllerLayoutGuide type="bottom" id="ec5-YT-r5s"/>
@@ -235,7 +235,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ja-j4-dql" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1733" y="2105"/>
+            <point key="canvasLocation" x="1751" y="2105"/>
         </scene>
         <!--找回密码-->
         <scene sceneID="dbC-f9-evX">

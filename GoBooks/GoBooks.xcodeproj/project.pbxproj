@@ -33,6 +33,7 @@
 		9575AA361CC336C800BF1DD1 /* SiginUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA351CC336C800BF1DD1 /* SiginUpViewController.m */; };
 		9575AA391CC3376F00BF1DD1 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA381CC3376F00BF1DD1 /* MineViewController.m */; };
 		9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA411CC36B0F00BF1DD1 /* TabViewController.m */; };
+		9575AA541CC3956000BF1DD1 /* zhaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA531CC3956000BF1DD1 /* zhaoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +99,8 @@
 		9575AA381CC3376F00BF1DD1 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		9575AA401CC36B0F00BF1DD1 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
 		9575AA411CC36B0F00BF1DD1 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
+		9575AA521CC3956000BF1DD1 /* zhaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhaoViewController.h; sourceTree = "<group>"; };
+		9575AA531CC3956000BF1DD1 /* zhaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhaoViewController.m; sourceTree = "<group>"; };
 		A6D0DA90D1638131C39320C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -261,6 +264,8 @@
 				9575AA381CC3376F00BF1DD1 /* MineViewController.m */,
 				9575AA401CC36B0F00BF1DD1 /* TabViewController.h */,
 				9575AA411CC36B0F00BF1DD1 /* TabViewController.m */,
+				9575AA521CC3956000BF1DD1 /* zhaoViewController.h */,
+				9575AA531CC3956000BF1DD1 /* zhaoViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -473,6 +478,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9575AA541CC3956000BF1DD1 /* zhaoViewController.m in Sources */,
 				9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */,
 				100284D71CC20F6300BAE0D8 /* GoBooks.xcdatamodeld in Sources */,
 				9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */,
