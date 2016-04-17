@@ -27,6 +27,13 @@
 		100285231CC21F3300BAE0D8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285221CC21F3300BAE0D8 /* AudioToolbox.framework */; };
 		100285261CC221EF00BAE0D8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285241CC221EF00BAE0D8 /* Bolts.framework */; };
 		100285271CC221EF00BAE0D8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285251CC221EF00BAE0D8 /* Parse.framework */; };
+		10086AB21CC37DB700B782A0 /* ClassifyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10086AB11CC37DB700B782A0 /* ClassifyStoryboard.storyboard */; };
+		10086AB41CC37DC600B782A0 /* PeopleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10086AB31CC37DC600B782A0 /* PeopleStoryboard.storyboard */; };
+		10086ABC1CC37EE900B782A0 /* ClassifyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10086ABB1CC37EE900B782A0 /* ClassifyTableViewController.m */; };
+		10086ABF1CC37F0600B782A0 /* PeopleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10086ABE1CC37F0600B782A0 /* PeopleTableViewController.m */; };
+		10086AC21CC37F7100B782A0 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10086AC11CC37F7100B782A0 /* MineViewController.m */; };
+		10086AC51CC37F9B00B782A0 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10086AC41CC37F9B00B782A0 /* HomeTableViewController.m */; };
+		10086AC71CC382B700B782A0 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10086AC61CC382B700B782A0 /* HomeStoryboard.storyboard */; };
 		432C17FA311A2E166C5ED735 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D0DA90D1638131C39320C9 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -81,6 +88,17 @@
 		100285221CC21F3300BAE0D8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		100285241CC221EF00BAE0D8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = GoBooks/Bolts.framework; sourceTree = "<group>"; };
 		100285251CC221EF00BAE0D8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = GoBooks/Parse.framework; sourceTree = "<group>"; };
+		10086AB11CC37DB700B782A0 /* ClassifyStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ClassifyStoryboard.storyboard; sourceTree = "<group>"; };
+		10086AB31CC37DC600B782A0 /* PeopleStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PeopleStoryboard.storyboard; sourceTree = "<group>"; };
+		10086ABA1CC37EE900B782A0 /* ClassifyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassifyTableViewController.h; sourceTree = "<group>"; };
+		10086ABB1CC37EE900B782A0 /* ClassifyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassifyTableViewController.m; sourceTree = "<group>"; };
+		10086ABD1CC37F0600B782A0 /* PeopleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleTableViewController.h; sourceTree = "<group>"; };
+		10086ABE1CC37F0600B782A0 /* PeopleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleTableViewController.m; sourceTree = "<group>"; };
+		10086AC01CC37F7100B782A0 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		10086AC11CC37F7100B782A0 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		10086AC31CC37F9B00B782A0 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		10086AC41CC37F9B00B782A0 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		10086AC61CC382B700B782A0 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
 		424E5137E9578C86BC9A9B10 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9043EA0DCFD1DD59BFAAABC4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		A6D0DA90D1638131C39320C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -226,6 +244,9 @@
 			children = (
 				100284D21CC20F6300BAE0D8 /* Main.storyboard */,
 				100284D81CC20F6300BAE0D8 /* Assets.xcassets */,
+				10086AB11CC37DB700B782A0 /* ClassifyStoryboard.storyboard */,
+				10086AB31CC37DC600B782A0 /* PeopleStoryboard.storyboard */,
+				10086AC61CC382B700B782A0 /* HomeStoryboard.storyboard */,
 				100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */,
 			);
 			name = View;
@@ -236,6 +257,14 @@
 			children = (
 				100284CF1CC20F6300BAE0D8 /* ViewController.h */,
 				100284D01CC20F6300BAE0D8 /* ViewController.m */,
+				10086AC31CC37F9B00B782A0 /* HomeTableViewController.h */,
+				10086AC41CC37F9B00B782A0 /* HomeTableViewController.m */,
+				10086ABA1CC37EE900B782A0 /* ClassifyTableViewController.h */,
+				10086ABB1CC37EE900B782A0 /* ClassifyTableViewController.m */,
+				10086ABD1CC37F0600B782A0 /* PeopleTableViewController.h */,
+				10086ABE1CC37F0600B782A0 /* PeopleTableViewController.m */,
+				10086AC01CC37F7100B782A0 /* MineViewController.h */,
+				10086AC11CC37F7100B782A0 /* MineViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -375,6 +404,9 @@
 			files = (
 				100284DC1CC20F6300BAE0D8 /* LaunchScreen.storyboard in Resources */,
 				100284D91CC20F6300BAE0D8 /* Assets.xcassets in Resources */,
+				10086AC71CC382B700B782A0 /* HomeStoryboard.storyboard in Resources */,
+				10086AB41CC37DC600B782A0 /* PeopleStoryboard.storyboard in Resources */,
+				10086AB21CC37DB700B782A0 /* ClassifyStoryboard.storyboard in Resources */,
 				100284D41CC20F6300BAE0D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +484,10 @@
 				100284D11CC20F6300BAE0D8 /* ViewController.m in Sources */,
 				100284CE1CC20F6300BAE0D8 /* AppDelegate.m in Sources */,
 				100284CB1CC20F6300BAE0D8 /* main.m in Sources */,
+				10086ABC1CC37EE900B782A0 /* ClassifyTableViewController.m in Sources */,
+				10086ABF1CC37F0600B782A0 /* PeopleTableViewController.m in Sources */,
+				10086AC51CC37F9B00B782A0 /* HomeTableViewController.m in Sources */,
+				10086AC21CC37F7100B782A0 /* MineViewController.m in Sources */,
 				1002850A1CC21AC200BAE0D8 /* StorageMgr.m in Sources */,
 				100285071CC21AAB00BAE0D8 /* Utilities.m in Sources */,
 			);
