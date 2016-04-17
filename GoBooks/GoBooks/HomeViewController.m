@@ -1,18 +1,18 @@
 //
-//  MineViewController.m
+//  HomeViewController.m
 //  GoBooks
 //
 //  Created by xu on 16/4/17.
 //  Copyright © 2016年 GBSeventh. All rights reserved.
 //
 
-#import "MineViewController.h"
+#import "HomeViewController.h"
 
-@interface MineViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation MineViewController
+@implementation HomeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

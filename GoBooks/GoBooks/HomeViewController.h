@@ -1,5 +1,5 @@
 //
-//  MineViewController.h
+//  HomeViewController.h
 //  GoBooks
 //
 //  Created by xu on 16/4/17.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MineViewController : UIViewController
+@interface HomeViewController : UIViewController
 
 @end

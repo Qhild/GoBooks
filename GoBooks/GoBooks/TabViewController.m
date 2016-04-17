@@ -1,18 +1,18 @@
 //
-//  MineViewController.m
+//  TabViewController.m
 //  GoBooks
 //
 //  Created by xu on 16/4/17.
 //  Copyright © 2016年 GBSeventh. All rights reserved.
 //
 
-#import "MineViewController.h"
+#import "TabViewController.h"
 
-@interface MineViewController ()
+@interface TabViewController ()
 
 @end
 
-@implementation MineViewController
+@implementation TabViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [Parse setApplicationId:@"btZKWMiHc6EBkYRDaxHa9wG9PiRmscriJDl7dmXm" clientKey:@"AusRe0z9RG8OsbxVQTU0flgMHRo92Fxs6Ap6Mop9"];
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     return YES;
 }
 
@@ -41,8 +43,16 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     // Saves changes in the application's managed object context before the application terminates.
-    [self saveContext];
+    //获取当前登录的用户
+    PFUser *currentUser = [PFUser currentUser];
+    if (currentUser) {
+        //退出
+        [PFUser logOut];
+    }
+    
+    //    [self saveContext];
 }
+
 
 #pragma mark - Core Data stack
 
