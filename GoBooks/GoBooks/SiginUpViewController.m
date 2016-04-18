@@ -46,11 +46,6 @@
         [Utilities popUpAlertViewWithMsg:@"确认密码保持一致" andTitle:nil onView:self];
         return;
     }
-    //在Info表中新建一行
-    PFObject *info = [PFObject objectWithClassName:@"Info"];
-    //初始初始贪婪币和初始可售卡数量
-    info[@"greedCoin"] = @10000;
-    info[@"saleLimitation"] = @5;
     
     //在Parse自带的User表中新建一行
     PFUser *user = [PFUser user];
@@ -58,7 +53,6 @@
     user.username = username;
     user.email = email;
     user.password = password;
-    user[@"info"] = info;
     
     //让导航条失去交互能力
     self.navigationController.view.userInteractionEnabled = NO;
