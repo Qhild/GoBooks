@@ -34,6 +34,8 @@
 		9575AA391CC3376F00BF1DD1 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA381CC3376F00BF1DD1 /* MineViewController.m */; };
 		9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA411CC36B0F00BF1DD1 /* TabViewController.m */; };
 		9575AA541CC3956000BF1DD1 /* zhaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA531CC3956000BF1DD1 /* zhaoViewController.m */; };
+		9FFF5C0F1CC47284004A8803 /* ClassifyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFF5C0E1CC47284004A8803 /* ClassifyStoryboard.storyboard */; };
+		9FFF5C111CC47296004A8803 /* PeopleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FFF5C101CC47296004A8803 /* PeopleStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +103,8 @@
 		9575AA411CC36B0F00BF1DD1 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		9575AA521CC3956000BF1DD1 /* zhaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhaoViewController.h; sourceTree = "<group>"; };
 		9575AA531CC3956000BF1DD1 /* zhaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhaoViewController.m; sourceTree = "<group>"; };
+		9FFF5C0E1CC47284004A8803 /* ClassifyStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ClassifyStoryboard.storyboard; sourceTree = "<group>"; };
+		9FFF5C101CC47296004A8803 /* PeopleStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PeopleStoryboard.storyboard; sourceTree = "<group>"; };
 		A6D0DA90D1638131C39320C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -245,6 +249,8 @@
 				100284D21CC20F6300BAE0D8 /* Main.storyboard */,
 				100284D81CC20F6300BAE0D8 /* Assets.xcassets */,
 				100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */,
+				9FFF5C0E1CC47284004A8803 /* ClassifyStoryboard.storyboard */,
+				9FFF5C101CC47296004A8803 /* PeopleStoryboard.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -406,6 +412,8 @@
 				100284DC1CC20F6300BAE0D8 /* LaunchScreen.storyboard in Resources */,
 				100284D91CC20F6300BAE0D8 /* Assets.xcassets in Resources */,
 				100284D41CC20F6300BAE0D8 /* Main.storyboard in Resources */,
+				9FFF5C111CC47296004A8803 /* PeopleStoryboard.storyboard in Resources */,
+				9FFF5C0F1CC47284004A8803 /* ClassifyStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
