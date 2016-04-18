@@ -7,7 +7,7 @@
 //
 
 #import "SiginViewController.h"
-#import "MineViewController.h"
+#import "TabViewController.h"
 @interface SiginViewController ()
 
 @end
@@ -57,7 +57,7 @@
 -(void)popUpHome {
     //根据故事版的名称和故事版中页面的名称获得这个页面
     
-    MineViewController *tabVC = [Utilities getStoryboardInstance:@"Main" byIdentity:@"Mine"];
+    TabViewController *tabVC = [Utilities getStoryboardInstance:@"Main" byIdentity:@"Tab"];
     [self presentViewController:tabVC animated:YES completion:nil];
     
     
