@@ -93,7 +93,7 @@
                                     </button>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C5v-6n-u7q">
                                         <rect key="frame" x="0.0" y="38" width="320" height="8"/>
-                                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sl6-fu-VMa">
                                         <rect key="frame" x="22" y="49" width="45" height="30"/>
@@ -146,7 +146,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="4WJ-e7-8J7" firstAttribute="top" secondItem="QKI-9x-Qra" secondAttribute="bottom" id="W5x-QY-CKp"/>
                             <constraint firstItem="4WJ-e7-8J7" firstAttribute="leading" secondItem="fue-wb-Xsy" secondAttribute="leading" id="aNh-Iw-GRW"/>
