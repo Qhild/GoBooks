@@ -88,4 +88,14 @@
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self.view endEditing:YES];
 }
+- (IBAction)homebtn1:(UIButton *)sender forEvent:(UIEvent *)event {
+}
+
+- (IBAction)homebtn2:(UIButton *)sender forEvent:(UIEvent *)event {
+}
+- (IBAction)homebtn3:(UIButton *)sender forEvent:(UIEvent *)event {
+}
+
+- (IBAction)homebtn4:(UIButton *)sender forEvent:(UIEvent *)event {
+}
 @end
