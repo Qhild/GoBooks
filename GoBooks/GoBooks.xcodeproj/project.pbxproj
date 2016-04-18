@@ -27,6 +27,11 @@
 		100285231CC21F3300BAE0D8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285221CC21F3300BAE0D8 /* AudioToolbox.framework */; };
 		100285261CC221EF00BAE0D8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285241CC221EF00BAE0D8 /* Bolts.framework */; };
 		100285271CC221EF00BAE0D8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285251CC221EF00BAE0D8 /* Parse.framework */; };
+		101F108B1CC48BE80082789C /* homeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101F108A1CC48BE80082789C /* homeStoryboard.storyboard */; };
+		101F108D1CC4AC0F0082789C /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F108C1CC4AC0F0082789C /* h1.jpg */; };
+		101F108F1CC4AC130082789C /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F108E1CC4AC130082789C /* h2.jpg */; };
+		101F10911CC4AC170082789C /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F10901CC4AC170082789C /* h3.jpg */; };
+		101F10931CC4AC1B0082789C /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F10921CC4AC1B0082789C /* h4.jpg */; };
 		432C17FA311A2E166C5ED735 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D0DA90D1638131C39320C9 /* libPods.a */; };
 		9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA2F1CC3369F00BF1DD1 /* HomeViewController.m */; };
 		9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA321CC336AE00BF1DD1 /* SiginViewController.m */; };
@@ -87,6 +92,11 @@
 		100285221CC21F3300BAE0D8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		100285241CC221EF00BAE0D8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = GoBooks/Bolts.framework; sourceTree = "<group>"; };
 		100285251CC221EF00BAE0D8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = GoBooks/Parse.framework; sourceTree = "<group>"; };
+		101F108A1CC48BE80082789C /* homeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = homeStoryboard.storyboard; sourceTree = "<group>"; };
+		101F108C1CC4AC0F0082789C /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
+		101F108E1CC4AC130082789C /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
+		101F10901CC4AC170082789C /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
+		101F10921CC4AC1B0082789C /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
 		424E5137E9578C86BC9A9B10 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9043EA0DCFD1DD59BFAAABC4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9575AA2E1CC3369F00BF1DD1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -178,6 +188,10 @@
 		100284C91CC20F6300BAE0D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				101F108C1CC4AC0F0082789C /* h1.jpg */,
+				101F108E1CC4AC130082789C /* h2.jpg */,
+				101F10901CC4AC170082789C /* h3.jpg */,
+				101F10921CC4AC1B0082789C /* h4.jpg */,
 				100284CC1CC20F6300BAE0D8 /* AppDelegate.h */,
 				100284CD1CC20F6300BAE0D8 /* AppDelegate.m */,
 				100284DD1CC20F6300BAE0D8 /* Info.plist */,
@@ -245,6 +259,7 @@
 				100284D21CC20F6300BAE0D8 /* Main.storyboard */,
 				100284D81CC20F6300BAE0D8 /* Assets.xcassets */,
 				100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */,
+				101F108A1CC48BE80082789C /* homeStoryboard.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -404,7 +419,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				100284DC1CC20F6300BAE0D8 /* LaunchScreen.storyboard in Resources */,
+				101F108D1CC4AC0F0082789C /* h1.jpg in Resources */,
 				100284D91CC20F6300BAE0D8 /* Assets.xcassets in Resources */,
+				101F10931CC4AC1B0082789C /* h4.jpg in Resources */,
+				101F108B1CC48BE80082789C /* homeStoryboard.storyboard in Resources */,
+				101F10911CC4AC170082789C /* h3.jpg in Resources */,
+				101F108F1CC4AC130082789C /* h2.jpg in Resources */,
 				100284D41CC20F6300BAE0D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
