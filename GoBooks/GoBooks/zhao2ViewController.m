@@ -1,18 +1,18 @@
 //
-//  zhaoViewController.m
+//  zhao2ViewController.m
 //  GoBooks
 //
-//  Created by xu on 16/4/17.
+//  Created by xu on 16/4/18.
 //  Copyright © 2016年 GBSeventh. All rights reserved.
 //
 
-#import "zhaoViewController.h"
+#import "zhao2ViewController.h"
 
-@interface zhaoViewController ()
+@interface zhao2ViewController ()
 
 @end
 
-@implementation zhaoViewController
+@implementation zhao2ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,18 +34,23 @@
 }
 */
 
-- (IBAction)xiayibuAction:(UIButton *)sender forEvent:(UIEvent *)event {
-    NSString *username = _usernameTF.text;
-    NSString *email = _emailTF.text;
-    if (username.length == 0 || email.length == 0) {
+- (IBAction)zhaoAction:(UIButton *)sender forEvent:(UIEvent *)event {
+    NSString *password = _passwordTF.text;
+    NSString *confirmPwd = _confirmPwdTF.text;
+    if (password.length == 0 || confirmPwd.length == 0) {
         [Utilities popUpAlertViewWithMsg:@"请填写所有信息" andTitle:nil onView:self];
         return;
     }
-    
+    if (![password isEqualToString:confirmPwd]) {
+        [Utilities popUpAlertViewWithMsg:@"确认密码保持一致" andTitle:nil onView:self];
+        return;
+    }
     //让导航条失去交互能力
     self.navigationController.view.userInteractionEnabled = NO;
     //菊花转啊转
     UIActivityIndicatorView *avi = [Utilities getCoverOnView:self.view];
     
+    
 }
+
 @end

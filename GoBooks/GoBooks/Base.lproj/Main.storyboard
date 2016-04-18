@@ -255,7 +255,7 @@
         <!--找回密码-->
         <scene sceneID="7fw-5y-GrH">
             <objects>
-                <viewController storyboardIdentifier="zhao" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9IV-1t-nt0" customClass="zhaoViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="zhao" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9IV-1t-nt0" customClass="zhao2ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0V2-VR-cPK"/>
                         <viewControllerLayoutGuide type="bottom" id="ec5-YT-r5s"/>
@@ -275,6 +275,9 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="确认"/>
+                                <connections>
+                                    <action selector="zhaoAction:forEvent:" destination="9IV-1t-nt0" eventType="touchUpInside" id="0yZ-J3-xcN"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="982-Qc-h3h">
                                 <rect key="frame" x="96" y="89" width="209" height="30"/>
@@ -312,6 +315,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="找回密码" id="Lhz-KG-n6b"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="confirmPwdTF" destination="BNl-rn-rSR" id="9oQ-C5-Paf"/>
+                        <outlet property="passwordTF" destination="982-Qc-h3h" id="qLb-yF-y1h"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ja-j4-dql" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -320,7 +327,7 @@
         <!--找回密码-->
         <scene sceneID="dbC-f9-evX">
             <objects>
-                <viewController id="mcW-oC-gZj" sceneMemberID="viewController">
+                <viewController id="mcW-oC-gZj" customClass="zhaoViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="7XU-sF-8ts"/>
                         <viewControllerLayoutGuide type="bottom" id="nhR-rm-po2"/>
@@ -356,6 +363,9 @@
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
                                 <state key="normal" title="下一步"/>
+                                <connections>
+                                    <action selector="xiayibuAction:forEvent:" destination="mcW-oC-gZj" eventType="touchUpInside" id="9XR-Ax-CPC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
@@ -377,6 +387,10 @@
                     </view>
                     <navigationItem key="navigationItem" title="找回密码" id="g8T-cu-qyz"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="emailTF" destination="ZDx-ct-Onw" id="NsV-8d-Cxc"/>
+                        <outlet property="usernameTF" destination="NpG-S3-r5V" id="TEe-c0-TcY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bQr-T1-9DU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

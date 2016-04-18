@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface zhaoViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *usernameTF;
+- (IBAction)xiayibuAction:(UIButton *)sender forEvent:(UIEvent *)event;
+@property (weak, nonatomic) IBOutlet UITextField *emailTF;
 
 @end
