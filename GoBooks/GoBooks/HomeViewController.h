@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface HomeViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UISearchBar *searchFiled;
+@property (weak, nonatomic) IBOutlet UIScrollView *CarouselView;
 
 @end
