@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SettingViewController : UIViewController
-- (IBAction)backAction:(UIBarButtonItem *)sender;
+- (IBAction)back1Action:(UIBarButtonItem *)sender;
+
 
 @end

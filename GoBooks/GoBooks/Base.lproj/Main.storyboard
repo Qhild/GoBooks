@@ -54,7 +54,7 @@
                                 </constraints>
                                 <state key="normal" title="        设置                                                           &gt;"/>
                                 <connections>
-                                    <segue destination="ehA-gI-MPB" kind="show" id="Cio-Rb-w0n"/>
+                                    <segue destination="ehA-gI-MPB" kind="presentation" id="Cio-Rb-w0n"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80o-x1-otz">
@@ -239,8 +239,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                                 <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJO-sL-ePB">
-                                <rect key="frame" x="0.0" y="317" width="323" height="40"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wJO-sL-ePB">
+                                <rect key="frame" x="0.0" y="317" width="320" height="40"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="ChC-1P-mCX"/>
@@ -288,7 +288,7 @@
                     <navigationItem key="navigationItem" title="设置" id="Obj-xt-B5s">
                         <barButtonItem key="leftBarButtonItem" systemItem="stop" id="X8a-uH-Eah">
                             <connections>
-                                <action selector="backAction:" destination="HdR-gx-6xy" id="Gxc-6u-OdG"/>
+                                <action selector="back1Action:" destination="HdR-gx-6xy" id="jTe-rT-aBY"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
@@ -739,7 +739,6 @@
         <!--Navigation Controller-->
         <scene sceneID="cZl-bl-jUP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RdD-c8-aAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N1S-ae-w4Z" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="hVy-90-2o3"/>
@@ -753,6 +752,7 @@
                         <segue destination="UEz-hI-8d6" kind="relationship" relationship="rootViewController" id="ANp-Ta-tyq"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RdD-c8-aAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="675" y="2105"/>
         </scene>
@@ -774,7 +774,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7eU-jM-xeU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="323" y="2739"/>
+            <point key="canvasLocation" x="323" y="2731"/>
         </scene>
     </scenes>
     <resources>
