@@ -10,6 +10,8 @@
 #import "TabViewController.h"
 @interface SiginViewController ()
 
+- (IBAction)backAction:(UIBarButtonItem *)sender;
+
 @end
 
 @implementation SiginViewController
@@ -128,4 +130,9 @@
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self.view endEditing:YES];
 }
+- (IBAction)backAction:(UIBarButtonItem *)sender {
+    //
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end
