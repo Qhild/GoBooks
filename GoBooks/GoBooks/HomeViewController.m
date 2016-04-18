@@ -7,8 +7,9 @@
 //
 
 #import "HomeViewController.h"
+#import "SDCycleScrollView.h"
 
-@interface HomeViewController ()
+@interface HomeViewController ()<SDCycleScrollViewDelegate>
 
 @end
 
@@ -31,26 +32,25 @@
 
 //    self.title = @"轮播Demo";
 
+    // 情景一：采用本地图片实现
+    NSArray *imageNames = @[@"h1.jpg",@"h2.jpg",@"h3.jpg",@"h4.jpg"];
 
-// 情景一：采用本地图片实现
-NSArray *imageNames = @[@"h1.jpg",@"h2.jpg",@"h3.jpg",@"h4.jpg"];
+    // 情景三：图片配文字
+    NSArray *titles = @[@"阅读让生活充实”",@"书是人类进步的阶梯",@"腹有诗书气自华",@"悠闲读书 意在怡情 情之所致"];
 
-// 情景三：图片配文字
-NSArray *titles = @[@"我有一个梦想",@"那就是",@"海贼王我当定了",@"嘻嘻嘻"];
+    CGFloat w = self.view.bounds.size.width;
 
-CGFloat w = self.view.bounds.size.width;
+    // 本地加载 --- 创建不带标题的图片轮播器
+    SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 64, w, 160) shouldInfiniteLoop:YES imageNamesGroup:imageNames];
+    cycleScrollView.delegate = self;
+    //轮播点动画
+    cycleScrollView.pageControlStyle = SDCycleScrollViewPageContolStyleClassic;
 
-// 本地加载 --- 创建不带标题的图片轮播器
-SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 64, w, 220) shouldInfiniteLoop:YES imageNamesGroup:imageNames];
-cycleScrollView.delegate = self;
-//轮播点动画
-cycleScrollView.pageControlStyle = SDCycleScrollViewPageContolStyleClassic;
+    cycleScrollView.pageControlAliment = SDCycleScrollViewPageContolAlimentRight;
 
-cycleScrollView.pageControlAliment = SDCycleScrollViewPageContolAlimentRight;
-
-cycleScrollView.titlesGroup = titles;
-[_imagePlayer addSubview:cycleScrollView];
-cycleScrollView.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+    cycleScrollView.titlesGroup = titles;
+    [_CarouselView addSubview:cycleScrollView];
+    cycleScrollView.scrollDirection = UICollectionViewScrollDirectionHorizontal;
 }
 
 #pragma mark - SDCycleScrollViewDelegate

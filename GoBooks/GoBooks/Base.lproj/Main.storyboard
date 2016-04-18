@@ -502,62 +502,6 @@
             </objects>
             <point key="canvasLocation" x="1032" y="2105"/>
         </scene>
-        <!--首页-->
-        <scene sceneID="vog-1P-fIe">
-            <objects>
-                <viewController id="kgk-G8-uH6" customClass="HomeViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="YHj-fL-Vda"/>
-                        <viewControllerLayoutGuide type="bottom" id="PRh-en-kFl"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="YSZ-g3-v4u">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <searchBar contentMode="redraw" fixedFrame="YES" text="" translatesAutoresizingMaskIntoConstraints="NO" id="f8H-ke-121">
-                                <rect key="frame" x="0.0" y="64" width="320" height="44"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DIQ-hw-XQe">
-                                <rect key="frame" x="20" y="206" width="56" height="31"/>
-                                <color key="backgroundColor" red="0.15232379609999999" green="1" blue="0.082500050640000003" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="武侠">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="10"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
-                                        <integer key="value" value="1"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vY9-UB-Dbe">
-                                <rect key="frame" x="144" y="212" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" title="首页" id="30m-hH-wvx"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
-                    <connections>
-                        <outlet property="searchDisplayController" destination="sEq-6B-Qna" id="ntR-Qf-JX1"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="C7c-Fd-GBt" userLabel="First Responder" sceneMemberID="firstResponder"/>
-                <searchDisplayController id="sEq-6B-Qna">
-                    <connections>
-                        <outlet property="delegate" destination="kgk-G8-uH6" id="sXo-0T-gMI"/>
-                        <outlet property="searchContentsController" destination="kgk-G8-uH6" id="Qsf-vY-1bp"/>
-                        <outlet property="searchResultsDataSource" destination="kgk-G8-uH6" id="acb-sq-zue"/>
-                        <outlet property="searchResultsDelegate" destination="kgk-G8-uH6" id="ZyQ-z6-XEF"/>
-                    </connections>
-                </searchDisplayController>
-            </objects>
-            <point key="canvasLocation" x="305" y="132"/>
-        </scene>
         <!--排行榜-->
         <scene sceneID="eY7-6X-Npp">
             <objects>
@@ -582,7 +526,7 @@
         <!--Tab View Controller-->
         <scene sceneID="cQI-M9-olP">
             <objects>
-                <tabBarController storyboardIdentifier="Tab" id="7kI-oh-agN" customClass="TabViewController" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="Tab" useStoryboardIdentifierAsRestorationIdentifier="YES" id="7kI-oh-agN" customClass="TabViewController" sceneMemberID="viewController">
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" id="t4g-2u-cFF">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
@@ -590,7 +534,7 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="zpG-yw-9j0" kind="relationship" relationship="viewControllers" id="FK5-2p-jqd"/>
+                        <segue destination="GiY-pP-imC" kind="relationship" relationship="viewControllers" id="M3E-2K-QNQ"/>
                         <segue destination="1s7-cd-lEn" kind="relationship" relationship="viewControllers" id="rU3-9J-gZ9"/>
                         <segue destination="O6Y-e5-tRA" kind="relationship" relationship="viewControllers" id="EaS-dp-XBv"/>
                         <segue destination="78p-uG-sZL" kind="relationship" relationship="viewControllers" id="d6i-WE-l9L"/>
@@ -600,24 +544,15 @@
             </objects>
             <point key="canvasLocation" x="-503" y="381"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="fLp-yh-41v">
+        <!--homeStoryboard-->
+        <scene sceneID="dYI-hH-1YP">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zpG-yw-9j0" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" systemItem="mostViewed" id="XbU-cv-Iyp"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6ax-Qk-58I">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="kgk-G8-uH6" kind="relationship" relationship="rootViewController" id="1Ob-HA-mGc"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="FzK-aa-tmv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="homeStoryboard" id="GiY-pP-imC" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="equ-gr-D4m"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4mg-89-Kjp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-75" y="140"/>
+            <point key="canvasLocation" x="-704" y="753"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="DRS-Wo-TO1">

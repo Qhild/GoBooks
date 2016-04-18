@@ -32,6 +32,15 @@
 		101F108F1CC4AC130082789C /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F108E1CC4AC130082789C /* h2.jpg */; };
 		101F10911CC4AC170082789C /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F10901CC4AC170082789C /* h3.jpg */; };
 		101F10931CC4AC1B0082789C /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F10921CC4AC1B0082789C /* h4.jpg */; };
+		101F10A41CC4AECD0082789C /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F10971CC4AECD0082789C /* SDCollectionViewCell.m */; };
+		101F10A51CC4AECD0082789C /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F10991CC4AECD0082789C /* SDCycleScrollView.m */; };
+		101F10A61CC4AECD0082789C /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F109B1CC4AECD0082789C /* TAAbstractDotView.m */; };
+		101F10A71CC4AECD0082789C /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F109D1CC4AECD0082789C /* TAAnimatedDotView.m */; };
+		101F10A81CC4AECD0082789C /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F109F1CC4AECD0082789C /* TADotView.m */; };
+		101F10A91CC4AECD0082789C /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F10A11CC4AECD0082789C /* TAPageControl.m */; };
+		101F10AA1CC4AECD0082789C /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F10A31CC4AECD0082789C /* UIView+SDExtension.m */; };
+		101F10AE1CC4AEF00082789C /* SDCycleScrollView.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 101F10AB1CC4AEF00082789C /* SDCycleScrollView.xcconfig */; };
+		101F10AF1CC4AEF00082789C /* SDCycleScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F10AC1CC4AEF00082789C /* SDCycleScrollView-dummy.m */; };
 		432C17FA311A2E166C5ED735 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D0DA90D1638131C39320C9 /* libPods.a */; };
 		9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA2F1CC3369F00BF1DD1 /* HomeViewController.m */; };
 		9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA321CC336AE00BF1DD1 /* SiginViewController.m */; };
@@ -98,6 +107,23 @@
 		101F108E1CC4AC130082789C /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
 		101F10901CC4AC170082789C /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
 		101F10921CC4AC1B0082789C /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
+		101F10961CC4AECC0082789C /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
+		101F10971CC4AECD0082789C /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
+		101F10981CC4AECD0082789C /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
+		101F10991CC4AECD0082789C /* SDCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollView.m; sourceTree = "<group>"; };
+		101F109A1CC4AECD0082789C /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
+		101F109B1CC4AECD0082789C /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
+		101F109C1CC4AECD0082789C /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
+		101F109D1CC4AECD0082789C /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
+		101F109E1CC4AECD0082789C /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
+		101F109F1CC4AECD0082789C /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
+		101F10A01CC4AECD0082789C /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		101F10A11CC4AECD0082789C /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		101F10A21CC4AECD0082789C /* UIView+SDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDExtension.h"; sourceTree = "<group>"; };
+		101F10A31CC4AECD0082789C /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
+		101F10AB1CC4AEF00082789C /* SDCycleScrollView.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SDCycleScrollView.xcconfig; sourceTree = "<group>"; };
+		101F10AC1CC4AEF00082789C /* SDCycleScrollView-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDCycleScrollView-dummy.m"; sourceTree = "<group>"; };
+		101F10AD1CC4AEF00082789C /* SDCycleScrollView-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDCycleScrollView-prefix.pch"; sourceTree = "<group>"; };
 		424E5137E9578C86BC9A9B10 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9043EA0DCFD1DD59BFAAABC4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9575AA2E1CC3369F00BF1DD1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -244,6 +270,7 @@
 		100285011CC21A0A00BAE0D8 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				101F10941CC4AE9F0082789C /* SDCycleScrollView */,
 			);
 			name = 3rd;
 			sourceTree = "<group>";
@@ -288,6 +315,38 @@
 				9593CD321CC4A512000F83B5 /* zhao2ViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		101F10941CC4AE9F0082789C /* SDCycleScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				101F10961CC4AECC0082789C /* SDCollectionViewCell.h */,
+				101F10971CC4AECD0082789C /* SDCollectionViewCell.m */,
+				101F10981CC4AECD0082789C /* SDCycleScrollView.h */,
+				101F10991CC4AECD0082789C /* SDCycleScrollView.m */,
+				101F109A1CC4AECD0082789C /* TAAbstractDotView.h */,
+				101F109B1CC4AECD0082789C /* TAAbstractDotView.m */,
+				101F109C1CC4AECD0082789C /* TAAnimatedDotView.h */,
+				101F109D1CC4AECD0082789C /* TAAnimatedDotView.m */,
+				101F109E1CC4AECD0082789C /* TADotView.h */,
+				101F109F1CC4AECD0082789C /* TADotView.m */,
+				101F10A01CC4AECD0082789C /* TAPageControl.h */,
+				101F10A11CC4AECD0082789C /* TAPageControl.m */,
+				101F10A21CC4AECD0082789C /* UIView+SDExtension.h */,
+				101F10A31CC4AECD0082789C /* UIView+SDExtension.m */,
+				101F10951CC4AEB00082789C /* Support Files */,
+			);
+			name = SDCycleScrollView;
+			sourceTree = "<group>";
+		};
+		101F10951CC4AEB00082789C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				101F10AB1CC4AEF00082789C /* SDCycleScrollView.xcconfig */,
+				101F10AC1CC4AEF00082789C /* SDCycleScrollView-dummy.m */,
+				101F10AD1CC4AEF00082789C /* SDCycleScrollView-prefix.pch */,
+			);
+			name = "Support Files";
 			sourceTree = "<group>";
 		};
 		4D4370BFC7A1B185C6772F1C /* Pods */ = {
@@ -428,6 +487,7 @@
 				100284D91CC20F6300BAE0D8 /* Assets.xcassets in Resources */,
 				101F10931CC4AC1B0082789C /* h4.jpg in Resources */,
 				101F108B1CC48BE80082789C /* homeStoryboard.storyboard in Resources */,
+				101F10AE1CC4AEF00082789C /* SDCycleScrollView.xcconfig in Resources */,
 				101F10911CC4AC170082789C /* h3.jpg in Resources */,
 				101F108F1CC4AC130082789C /* h2.jpg in Resources */,
 				100284D41CC20F6300BAE0D8 /* Main.storyboard in Resources */,
@@ -504,16 +564,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				9575AA541CC3956000BF1DD1 /* zhaoViewController.m in Sources */,
+				101F10A81CC4AECD0082789C /* TADotView.m in Sources */,
 				9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */,
+				101F10AA1CC4AECD0082789C /* UIView+SDExtension.m in Sources */,
 				100284D71CC20F6300BAE0D8 /* GoBooks.xcdatamodeld in Sources */,
 				9593CD331CC4A512000F83B5 /* zhao2ViewController.m in Sources */,
+				101F10A51CC4AECD0082789C /* SDCycleScrollView.m in Sources */,
+				101F10A71CC4AECD0082789C /* TAAnimatedDotView.m in Sources */,
 				9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */,
 				100284D11CC20F6300BAE0D8 /* ViewController.m in Sources */,
 				100284CE1CC20F6300BAE0D8 /* AppDelegate.m in Sources */,
 				9575AA361CC336C800BF1DD1 /* SiginUpViewController.m in Sources */,
+				101F10A61CC4AECD0082789C /* TAAbstractDotView.m in Sources */,
 				100284CB1CC20F6300BAE0D8 /* main.m in Sources */,
+				101F10A91CC4AECD0082789C /* TAPageControl.m in Sources */,
+				101F10A41CC4AECD0082789C /* SDCollectionViewCell.m in Sources */,
 				1002850A1CC21AC200BAE0D8 /* StorageMgr.m in Sources */,
 				9575AA391CC3376F00BF1DD1 /* MineViewController.m in Sources */,
+				101F10AF1CC4AEF00082789C /* SDCycleScrollView-dummy.m in Sources */,
 				9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */,
 				100285071CC21AAB00BAE0D8 /* Utilities.m in Sources */,
 			);
