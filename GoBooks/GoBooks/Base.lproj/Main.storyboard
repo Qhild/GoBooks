@@ -95,7 +95,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
-                                            <segue destination="N1S-ae-w4Z" kind="presentation" id="gQ2-Hb-ka7"/>
+                                            <segue destination="N1S-ae-w4Z" kind="presentation" id="gl4-ui-uik"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击登录" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUp-x9-XQa">
@@ -252,7 +252,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QQs-Ba-HCR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1019" y="2105"/>
+            <point key="canvasLocation" x="1017" y="2105"/>
         </scene>
         <!--找回密码-->
         <scene sceneID="7fw-5y-GrH">
@@ -324,7 +324,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Ja-j4-dql" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3437" y="2105"/>
+            <point key="canvasLocation" x="2039" y="2105"/>
         </scene>
         <!--找回密码-->
         <scene sceneID="dbC-f9-evX">
@@ -367,6 +367,7 @@
                                 <state key="normal" title="下一步"/>
                                 <connections>
                                     <action selector="xiayibuAction:forEvent:" destination="mcW-oC-gZj" eventType="touchUpInside" id="9XR-Ax-CPC"/>
+                                    <segue destination="9IV-1t-nt0" kind="show" id="dnQ-gq-Wqs"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -396,7 +397,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bQr-T1-9DU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1713" y="2105"/>
+            <point key="canvasLocation" x="1703" y="2105"/>
         </scene>
         <!--注册-->
         <scene sceneID="YfS-Vr-wkz">
@@ -599,6 +600,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="N1S-ae-w4Z" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="hVy-90-2o3"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jut-wr-MId">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -610,7 +613,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RdD-c8-aAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="667" y="2105"/>
+            <point key="canvasLocation" x="675" y="2105"/>
         </scene>
     </scenes>
     <resources>
