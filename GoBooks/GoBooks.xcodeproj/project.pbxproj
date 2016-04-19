@@ -27,6 +27,12 @@
 		100285231CC21F3300BAE0D8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285221CC21F3300BAE0D8 /* AudioToolbox.framework */; };
 		100285261CC221EF00BAE0D8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285241CC221EF00BAE0D8 /* Bolts.framework */; };
 		100285271CC221EF00BAE0D8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285251CC221EF00BAE0D8 /* Parse.framework */; };
+		100A94E61CC6249400F15614 /* classifyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100A94E51CC6249400F15614 /* classifyStoryboard.storyboard */; };
+		100A94E91CC6374700F15614 /* htcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100A94E81CC6374700F15614 /* htcTableViewController.m */; };
+		100A94EC1CC6407300F15614 /* bookDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 100A94EB1CC6407300F15614 /* bookDetailTableViewController.m */; };
+		100A94F21CC640FE00F15614 /* StoryCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 100A94EF1CC640FE00F15614 /* StoryCommentCell.m */; };
+		100A94F31CC640FE00F15614 /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 100A94F11CC640FE00F15614 /* ParallaxHeaderView.m */; };
+		100A94F61CC6417900F15614 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 100A94F51CC6417900F15614 /* UIImage+ImageEffects.m */; };
 		101F108B1CC48BE80082789C /* homeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101F108A1CC48BE80082789C /* homeStoryboard.storyboard */; };
 		101F108D1CC4AC0F0082789C /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F108C1CC4AC0F0082789C /* h1.jpg */; };
 		101F108F1CC4AC130082789C /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F108E1CC4AC130082789C /* h2.jpg */; };
@@ -103,6 +109,17 @@
 		100285221CC21F3300BAE0D8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		100285241CC221EF00BAE0D8 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = GoBooks/Bolts.framework; sourceTree = "<group>"; };
 		100285251CC221EF00BAE0D8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = GoBooks/Parse.framework; sourceTree = "<group>"; };
+		100A94E51CC6249400F15614 /* classifyStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = classifyStoryboard.storyboard; sourceTree = "<group>"; };
+		100A94E71CC6374700F15614 /* htcTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = htcTableViewController.h; sourceTree = "<group>"; };
+		100A94E81CC6374700F15614 /* htcTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = htcTableViewController.m; sourceTree = "<group>"; };
+		100A94EA1CC6407300F15614 /* bookDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bookDetailTableViewController.h; sourceTree = "<group>"; };
+		100A94EB1CC6407300F15614 /* bookDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bookDetailTableViewController.m; sourceTree = "<group>"; };
+		100A94EE1CC640FE00F15614 /* StoryCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryCommentCell.h; sourceTree = "<group>"; };
+		100A94EF1CC640FE00F15614 /* StoryCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryCommentCell.m; sourceTree = "<group>"; };
+		100A94F01CC640FE00F15614 /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
+		100A94F11CC640FE00F15614 /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
+		100A94F41CC6417900F15614 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		100A94F51CC6417900F15614 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 		101F108A1CC48BE80082789C /* homeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = homeStoryboard.storyboard; sourceTree = "<group>"; };
 		101F108C1CC4AC0F0082789C /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
 		101F108E1CC4AC130082789C /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
@@ -273,6 +290,7 @@
 		100285011CC21A0A00BAE0D8 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				100A94ED1CC640E600F15614 /* Extensions */,
 				101F10941CC4AE9F0082789C /* SDCycleScrollView */,
 			);
 			name = 3rd;
@@ -293,6 +311,7 @@
 				100284D81CC20F6300BAE0D8 /* Assets.xcassets */,
 				100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */,
 				101F108A1CC48BE80082789C /* homeStoryboard.storyboard */,
+				100A94E51CC6249400F15614 /* classifyStoryboard.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -318,8 +337,25 @@
 				9593CD321CC4A512000F83B5 /* zhao2ViewController.m */,
 				95A5D6551CC4E1D90090A482 /* SettingViewController.h */,
 				95A5D6561CC4E1D90090A482 /* SettingViewController.m */,
+				100A94E71CC6374700F15614 /* htcTableViewController.h */,
+				100A94E81CC6374700F15614 /* htcTableViewController.m */,
+				100A94EA1CC6407300F15614 /* bookDetailTableViewController.h */,
+				100A94EB1CC6407300F15614 /* bookDetailTableViewController.m */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		100A94ED1CC640E600F15614 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				100A94F41CC6417900F15614 /* UIImage+ImageEffects.h */,
+				100A94F51CC6417900F15614 /* UIImage+ImageEffects.m */,
+				100A94EE1CC640FE00F15614 /* StoryCommentCell.h */,
+				100A94EF1CC640FE00F15614 /* StoryCommentCell.m */,
+				100A94F01CC640FE00F15614 /* ParallaxHeaderView.h */,
+				100A94F11CC640FE00F15614 /* ParallaxHeaderView.m */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		101F10941CC4AE9F0082789C /* SDCycleScrollView */ = {
@@ -496,6 +532,7 @@
 				101F10911CC4AC170082789C /* h3.jpg in Resources */,
 				101F108F1CC4AC130082789C /* h2.jpg in Resources */,
 				100284D41CC20F6300BAE0D8 /* Main.storyboard in Resources */,
+				100A94E61CC6249400F15614 /* classifyStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,9 +609,12 @@
 				101F10A81CC4AECD0082789C /* TADotView.m in Sources */,
 				9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */,
 				101F10AA1CC4AECD0082789C /* UIView+SDExtension.m in Sources */,
+				100A94F31CC640FE00F15614 /* ParallaxHeaderView.m in Sources */,
+				100A94F61CC6417900F15614 /* UIImage+ImageEffects.m in Sources */,
 				100284D71CC20F6300BAE0D8 /* GoBooks.xcdatamodeld in Sources */,
 				9593CD331CC4A512000F83B5 /* zhao2ViewController.m in Sources */,
 				101F10A51CC4AECD0082789C /* SDCycleScrollView.m in Sources */,
+				100A94E91CC6374700F15614 /* htcTableViewController.m in Sources */,
 				101F10A71CC4AECD0082789C /* TAAnimatedDotView.m in Sources */,
 				9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */,
 				95A5D6571CC4E1D90090A482 /* SettingViewController.m in Sources */,
@@ -582,11 +622,13 @@
 				100284CE1CC20F6300BAE0D8 /* AppDelegate.m in Sources */,
 				9575AA361CC336C800BF1DD1 /* SiginUpViewController.m in Sources */,
 				101F10A61CC4AECD0082789C /* TAAbstractDotView.m in Sources */,
+				100A94EC1CC6407300F15614 /* bookDetailTableViewController.m in Sources */,
 				100284CB1CC20F6300BAE0D8 /* main.m in Sources */,
 				101F10A91CC4AECD0082789C /* TAPageControl.m in Sources */,
 				101F10A41CC4AECD0082789C /* SDCollectionViewCell.m in Sources */,
 				1002850A1CC21AC200BAE0D8 /* StorageMgr.m in Sources */,
 				9575AA391CC3376F00BF1DD1 /* MineViewController.m in Sources */,
+				100A94F21CC640FE00F15614 /* StoryCommentCell.m in Sources */,
 				101F10AF1CC4AEF00082789C /* SDCycleScrollView-dummy.m in Sources */,
 				9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */,
 				100285071CC21AAB00BAE0D8 /* Utilities.m in Sources */,
