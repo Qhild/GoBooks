@@ -2,15 +2,15 @@
 //  SettingViewController.m
 //  GoBooks
 //
-//  Created by xu on 16/4/18.
+//  Created by xu on 16/4/19.
 //  Copyright © 2016年 GBSeventh. All rights reserved.
 //
 
 #import "SettingViewController.h"
 #import <MobileCoreServices/MobileCoreServices.h>
-
 @interface SettingViewController ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 @property (strong, nonatomic) UIImagePickerController *imagePC;
+
 @end
 
 @implementation SettingViewController
@@ -60,9 +60,21 @@
 }
 */
 
-- (IBAction)back1Action:(UIBarButtonItem *)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+- (IBAction)touxiangAction:(UIButton *)sender forEvent:(UIEvent *)event {
+    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
+    UIAlertAction *takePhoto = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [self pickImage:UIImagePickerControllerSourceTypeCamera];
+    }];
+    UIAlertAction *choosePhoto = [UIAlertAction actionWithTitle:@"从相册选择" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        [self pickImage:UIImagePickerControllerSourceTypePhotoLibrary];
+    }];
+    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
+    [actionSheet addAction:takePhoto];
+    [actionSheet addAction:choosePhoto];
+    [actionSheet addAction:cancelAction];
+    [self presentViewController:actionSheet animated:YES completion:nil];
 }
+
 
 - (IBAction)pickAction:(UITapGestureRecognizer *)sender {
     UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
@@ -77,24 +89,6 @@
     [actionSheet addAction:choosePhoto];
     [actionSheet addAction:cancelAction];
     [self presentViewController:actionSheet animated:YES completion:nil];
+
 }
-
-- (IBAction)pick1Action:(UIButton *)sender forEvent:(UIEvent *)event {
-    UIAlertController *actionSheet = [UIAlertController alertControllerWithTitle:nil message:nil preferredStyle:UIAlertControllerStyleActionSheet];
-    UIAlertAction *takePhoto = [UIAlertAction actionWithTitle:@"拍照" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
-        [self pickImage:UIImagePickerControllerSourceTypeCamera];
-    }];
-    UIAlertAction *choosePhoto = [UIAlertAction actionWithTitle:@"从相册选择" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
-        [self pickImage:UIImagePickerControllerSourceTypePhotoLibrary];
-    }];
-    UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:nil];
-    [actionSheet addAction:takePhoto];
-    [actionSheet addAction:choosePhoto];
-    [actionSheet addAction:cancelAction];
-    [self presentViewController:actionSheet animated:YES completion:nil];
-}
-
-    
-
-
 @end

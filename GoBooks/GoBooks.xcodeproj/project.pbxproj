@@ -51,11 +51,11 @@
 		9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA2F1CC3369F00BF1DD1 /* HomeViewController.m */; };
 		9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA321CC336AE00BF1DD1 /* SiginViewController.m */; };
 		9575AA361CC336C800BF1DD1 /* SiginUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA351CC336C800BF1DD1 /* SiginUpViewController.m */; };
-		9575AA391CC3376F00BF1DD1 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA381CC3376F00BF1DD1 /* MineViewController.m */; };
 		9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA411CC36B0F00BF1DD1 /* TabViewController.m */; };
 		9575AA541CC3956000BF1DD1 /* zhaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA531CC3956000BF1DD1 /* zhaoViewController.m */; };
 		9593CD331CC4A512000F83B5 /* zhao2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9593CD321CC4A512000F83B5 /* zhao2ViewController.m */; };
-		95A5D6571CC4E1D90090A482 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D6561CC4E1D90090A482 /* SettingViewController.m */; };
+		95A95E7D1CC6276F00B18F59 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A95E7C1CC6276F00B18F59 /* SettingViewController.m */; };
+		95A95E801CC6387900B18F59 /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A95E7F1CC6387900B18F59 /* MineTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,16 +150,16 @@
 		9575AA321CC336AE00BF1DD1 /* SiginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiginViewController.m; sourceTree = "<group>"; };
 		9575AA341CC336C800BF1DD1 /* SiginUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiginUpViewController.h; sourceTree = "<group>"; };
 		9575AA351CC336C800BF1DD1 /* SiginUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiginUpViewController.m; sourceTree = "<group>"; };
-		9575AA371CC3376F00BF1DD1 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		9575AA381CC3376F00BF1DD1 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		9575AA401CC36B0F00BF1DD1 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
 		9575AA411CC36B0F00BF1DD1 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		9575AA521CC3956000BF1DD1 /* zhaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhaoViewController.h; sourceTree = "<group>"; };
 		9575AA531CC3956000BF1DD1 /* zhaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhaoViewController.m; sourceTree = "<group>"; };
 		9593CD311CC4A511000F83B5 /* zhao2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhao2ViewController.h; sourceTree = "<group>"; };
 		9593CD321CC4A512000F83B5 /* zhao2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhao2ViewController.m; sourceTree = "<group>"; };
-		95A5D6551CC4E1D90090A482 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
-		95A5D6561CC4E1D90090A482 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		95A95E7B1CC6276F00B18F59 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		95A95E7C1CC6276F00B18F59 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		95A95E7E1CC6387900B18F59 /* MineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
+		95A95E7F1CC6387900B18F59 /* MineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
 		A6D0DA90D1638131C39320C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -327,20 +327,25 @@
 				100284D01CC20F6300BAE0D8 /* ViewController.m */,
 				9575AA2E1CC3369F00BF1DD1 /* HomeViewController.h */,
 				9575AA2F1CC3369F00BF1DD1 /* HomeViewController.m */,
-				9575AA371CC3376F00BF1DD1 /* MineViewController.h */,
-				9575AA381CC3376F00BF1DD1 /* MineViewController.m */,
 				9575AA401CC36B0F00BF1DD1 /* TabViewController.h */,
 				9575AA411CC36B0F00BF1DD1 /* TabViewController.m */,
 				9575AA521CC3956000BF1DD1 /* zhaoViewController.h */,
 				9575AA531CC3956000BF1DD1 /* zhaoViewController.m */,
 				9593CD311CC4A511000F83B5 /* zhao2ViewController.h */,
 				9593CD321CC4A512000F83B5 /* zhao2ViewController.m */,
+<<<<<<< HEAD
 				95A5D6551CC4E1D90090A482 /* SettingViewController.h */,
 				95A5D6561CC4E1D90090A482 /* SettingViewController.m */,
 				100A94E71CC6374700F15614 /* htcTableViewController.h */,
 				100A94E81CC6374700F15614 /* htcTableViewController.m */,
 				100A94EA1CC6407300F15614 /* bookDetailTableViewController.h */,
 				100A94EB1CC6407300F15614 /* bookDetailTableViewController.m */,
+=======
+				95A95E7B1CC6276F00B18F59 /* SettingViewController.h */,
+				95A95E7C1CC6276F00B18F59 /* SettingViewController.m */,
+				95A95E7E1CC6387900B18F59 /* MineTableViewController.h */,
+				95A95E7F1CC6387900B18F59 /* MineTableViewController.m */,
+>>>>>>> fc747fd81a4b5f61c6636e253a4d1597e60d63a6
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -607,6 +612,7 @@
 			files = (
 				9575AA541CC3956000BF1DD1 /* zhaoViewController.m in Sources */,
 				101F10A81CC4AECD0082789C /* TADotView.m in Sources */,
+				95A95E801CC6387900B18F59 /* MineTableViewController.m in Sources */,
 				9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */,
 				101F10AA1CC4AECD0082789C /* UIView+SDExtension.m in Sources */,
 				100A94F31CC640FE00F15614 /* ParallaxHeaderView.m in Sources */,
@@ -616,8 +622,8 @@
 				101F10A51CC4AECD0082789C /* SDCycleScrollView.m in Sources */,
 				100A94E91CC6374700F15614 /* htcTableViewController.m in Sources */,
 				101F10A71CC4AECD0082789C /* TAAnimatedDotView.m in Sources */,
+				95A95E7D1CC6276F00B18F59 /* SettingViewController.m in Sources */,
 				9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */,
-				95A5D6571CC4E1D90090A482 /* SettingViewController.m in Sources */,
 				100284D11CC20F6300BAE0D8 /* ViewController.m in Sources */,
 				100284CE1CC20F6300BAE0D8 /* AppDelegate.m in Sources */,
 				9575AA361CC336C800BF1DD1 /* SiginUpViewController.m in Sources */,
@@ -627,8 +633,11 @@
 				101F10A91CC4AECD0082789C /* TAPageControl.m in Sources */,
 				101F10A41CC4AECD0082789C /* SDCollectionViewCell.m in Sources */,
 				1002850A1CC21AC200BAE0D8 /* StorageMgr.m in Sources */,
+<<<<<<< HEAD
 				9575AA391CC3376F00BF1DD1 /* MineViewController.m in Sources */,
 				100A94F21CC640FE00F15614 /* StoryCommentCell.m in Sources */,
+=======
+>>>>>>> fc747fd81a4b5f61c6636e253a4d1597e60d63a6
 				101F10AF1CC4AEF00082789C /* SDCycleScrollView-dummy.m in Sources */,
 				9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */,
 				100285071CC21AAB00BAE0D8 /* Utilities.m in Sources */,
