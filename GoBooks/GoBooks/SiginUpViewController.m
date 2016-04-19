@@ -104,11 +104,13 @@
     }];
 }
 
+
 //当键盘右下角的按钮按了以后执行这个方法
 -(BOOL)textFieldShouldReturn:(UITextField *)textField{
     [textField resignFirstResponder];
     return YES;
 }
+
 //点击屏幕让键盘收回
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self.view endEditing:YES];
