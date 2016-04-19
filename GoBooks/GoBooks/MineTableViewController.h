@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface MineTableViewController : UITableViewController
-- (IBAction)ButtonAction:(UIButton *)sender forEvent:(UIEvent *)event;
 
 @end
