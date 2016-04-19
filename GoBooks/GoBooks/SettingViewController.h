@@ -10,6 +10,9 @@
 
 @interface SettingViewController : UIViewController
 - (IBAction)back1Action:(UIBarButtonItem *)sender;
+- (IBAction)pickAction:(UITapGestureRecognizer *)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *photoIV;
+- (IBAction)pick1Action:(UIButton *)sender forEvent:(UIEvent *)event;
 
 
 @end
