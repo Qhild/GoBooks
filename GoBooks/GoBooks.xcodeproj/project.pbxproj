@@ -46,9 +46,10 @@
 		9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA321CC336AE00BF1DD1 /* SiginViewController.m */; };
 		9575AA361CC336C800BF1DD1 /* SiginUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA351CC336C800BF1DD1 /* SiginUpViewController.m */; };
 		9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA411CC36B0F00BF1DD1 /* TabViewController.m */; };
-		9575AA541CC3956000BF1DD1 /* zhaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA531CC3956000BF1DD1 /* zhaoViewController.m */; };
-		9593CD331CC4A512000F83B5 /* zhao2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9593CD321CC4A512000F83B5 /* zhao2ViewController.m */; };
-		95A5D6571CC4E1D90090A482 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A5D6561CC4E1D90090A482 /* SettingViewController.m */; };
+		9594A46B1CC9F5E30005505C /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9594A46A1CC9F5E30005505C /* MineTableViewController.m */; };
+		9594A46E1CC9F6C10005505C /* RetrieveOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9594A46D1CC9F6C10005505C /* RetrieveOneViewController.m */; };
+		9594A4711CC9F6D30005505C /* RetrieveTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9594A4701CC9F6D30005505C /* RetrieveTwoViewController.m */; };
+		9594A4741CC9F7E20005505C /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9594A4731CC9F7E20005505C /* SettingViewController.m */; };
 		95FC1D3B1CC9EF7D00A53C62 /* SCPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FC1D3A1CC9EF7D00A53C62 /* SCPopView.m */; };
 		95FC1D3E1CC9EFA400A53C62 /* SCNavTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FC1D3D1CC9EFA400A53C62 /* SCNavTabBar.m */; };
 		95FC1D421CC9F00000A53C62 /* SCNavTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FC1D411CC9F00000A53C62 /* SCNavTabBarController.m */; };
@@ -139,12 +140,14 @@
 		9575AA351CC336C800BF1DD1 /* SiginUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiginUpViewController.m; sourceTree = "<group>"; };
 		9575AA401CC36B0F00BF1DD1 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
 		9575AA411CC36B0F00BF1DD1 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
-		9575AA521CC3956000BF1DD1 /* zhaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhaoViewController.h; sourceTree = "<group>"; };
-		9575AA531CC3956000BF1DD1 /* zhaoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhaoViewController.m; sourceTree = "<group>"; };
-		9593CD311CC4A511000F83B5 /* zhao2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhao2ViewController.h; sourceTree = "<group>"; };
-		9593CD321CC4A512000F83B5 /* zhao2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zhao2ViewController.m; sourceTree = "<group>"; };
-		95A5D6551CC4E1D90090A482 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
-		95A5D6561CC4E1D90090A482 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		9594A4691CC9F5E30005505C /* MineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
+		9594A46A1CC9F5E30005505C /* MineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
+		9594A46C1CC9F6C10005505C /* RetrieveOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetrieveOneViewController.h; sourceTree = "<group>"; };
+		9594A46D1CC9F6C10005505C /* RetrieveOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetrieveOneViewController.m; sourceTree = "<group>"; };
+		9594A46F1CC9F6D30005505C /* RetrieveTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetrieveTwoViewController.h; sourceTree = "<group>"; };
+		9594A4701CC9F6D30005505C /* RetrieveTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetrieveTwoViewController.m; sourceTree = "<group>"; };
+		9594A4721CC9F7E20005505C /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		9594A4731CC9F7E20005505C /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		95FC1D391CC9EF7D00A53C62 /* SCPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPopView.h; sourceTree = "<group>"; };
 		95FC1D3A1CC9EF7D00A53C62 /* SCPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPopView.m; sourceTree = "<group>"; };
 		95FC1D3C1CC9EFA400A53C62 /* SCNavTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavTabBar.h; sourceTree = "<group>"; };
@@ -325,14 +328,16 @@
 				9575AA2F1CC3369F00BF1DD1 /* HomeViewController.m */,
 				9575AA401CC36B0F00BF1DD1 /* TabViewController.h */,
 				9575AA411CC36B0F00BF1DD1 /* TabViewController.m */,
-				9575AA521CC3956000BF1DD1 /* zhaoViewController.h */,
-				9575AA531CC3956000BF1DD1 /* zhaoViewController.m */,
-				9593CD311CC4A511000F83B5 /* zhao2ViewController.h */,
-				9593CD321CC4A512000F83B5 /* zhao2ViewController.m */,
-				95A5D6551CC4E1D90090A482 /* SettingViewController.h */,
-				95A5D6561CC4E1D90090A482 /* SettingViewController.m */,
 				95FC1D471CC9F11700A53C62 /* fenleiViewController.h */,
 				95FC1D481CC9F11700A53C62 /* fenleiViewController.m */,
+				9594A4691CC9F5E30005505C /* MineTableViewController.h */,
+				9594A46A1CC9F5E30005505C /* MineTableViewController.m */,
+				9594A46C1CC9F6C10005505C /* RetrieveOneViewController.h */,
+				9594A46D1CC9F6C10005505C /* RetrieveOneViewController.m */,
+				9594A46F1CC9F6D30005505C /* RetrieveTwoViewController.h */,
+				9594A4701CC9F6D30005505C /* RetrieveTwoViewController.m */,
+				9594A4721CC9F7E20005505C /* SettingViewController.h */,
+				9594A4731CC9F7E20005505C /* SettingViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -613,27 +618,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9575AA541CC3956000BF1DD1 /* zhaoViewController.m in Sources */,
 				101F10A81CC4AECD0082789C /* TADotView.m in Sources */,
 				9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */,
 				101F10AA1CC4AECD0082789C /* UIView+SDExtension.m in Sources */,
 				100284D71CC20F6300BAE0D8 /* GoBooks.xcdatamodeld in Sources */,
 				95FC1D421CC9F00000A53C62 /* SCNavTabBarController.m in Sources */,
-				9593CD331CC4A512000F83B5 /* zhao2ViewController.m in Sources */,
 				101F10A51CC4AECD0082789C /* SDCycleScrollView.m in Sources */,
 				101F10A71CC4AECD0082789C /* TAAnimatedDotView.m in Sources */,
 				9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */,
-				95A5D6571CC4E1D90090A482 /* SettingViewController.m in Sources */,
 				100284D11CC20F6300BAE0D8 /* ViewController.m in Sources */,
+				9594A46E1CC9F6C10005505C /* RetrieveOneViewController.m in Sources */,
 				100284CE1CC20F6300BAE0D8 /* AppDelegate.m in Sources */,
 				9575AA361CC336C800BF1DD1 /* SiginUpViewController.m in Sources */,
+				9594A46B1CC9F5E30005505C /* MineTableViewController.m in Sources */,
 				95FC1D491CC9F11700A53C62 /* fenleiViewController.m in Sources */,
 				101F10A61CC4AECD0082789C /* TAAbstractDotView.m in Sources */,
+				9594A4741CC9F7E20005505C /* SettingViewController.m in Sources */,
 				95FC1D3B1CC9EF7D00A53C62 /* SCPopView.m in Sources */,
 				100284CB1CC20F6300BAE0D8 /* main.m in Sources */,
 				101F10A91CC4AECD0082789C /* TAPageControl.m in Sources */,
 				101F10A41CC4AECD0082789C /* SDCollectionViewCell.m in Sources */,
 				1002850A1CC21AC200BAE0D8 /* StorageMgr.m in Sources */,
+				9594A4711CC9F6D30005505C /* RetrieveTwoViewController.m in Sources */,
 				101F10AF1CC4AEF00082789C /* SDCycleScrollView-dummy.m in Sources */,
 				95FC1D3E1CC9EFA400A53C62 /* SCNavTabBar.m in Sources */,
 				9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */,
