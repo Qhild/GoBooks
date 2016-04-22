@@ -1,23 +1,18 @@
 //
-//  bookDetailTableViewController.m
+//  HbcTableViewController.m
 //  GoBooks
 //
-//  Created by Q on 16/4/19.
+//  Created by Q on 16/4/22.
 //  Copyright © 2016年 GBSeventh. All rights reserved.
 //
 
-#import "bookDetailTableViewController.h"
-#import "ParallaxHeaderView.h"
-#import "StoryCommentCell.h"
+#import "HbcTableViewController.h"
 
-@interface bookDetailTableViewController ()
+@interface HbcTableViewController ()
 
-@property (weak, nonatomic) IBOutlet UITableView *mainTableView;
-
-@property (nonatomic) NSDictionary *story;
 @end
 
-@implementation bookDetailTableViewController
+@implementation HbcTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,14 +22,6 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    [StoryCommentCell setTableViewWidth:self.mainTableView.frame.size.width];
-    self.navigationController.navigationBarHidden=YES;
-    ParallaxHeaderView *headerView = [ParallaxHeaderView parallaxHeaderViewWithCGSize:CGSizeMake(self.mainTableView.frame.size.width, 180)];
-    
-    headerView.headerTitleLabel.text = self.story[@"story"];
-    headerView.headerImage = [UIImage imageNamed:@"武侠"];
-    
-    [self.mainTableView setTableHeaderView:headerView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,61 +32,13 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-
+#warning Incomplete implementation, return the number of sections
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSInteger numOfRows = [self.story[kCommentsKey] count];
-    return numOfRows;
-}
-
-//
-
-#pragma mark -
-#pragma mark UISCrollViewDelegate
-
-- (void)scrollViewDidScroll:(UIScrollView *)scrollView
-{
-    if (scrollView == self.mainTableView)
-    {
-        // pass the current offset of the UITableView so that the ParallaxHeaderView layouts the subViews.
-        [(ParallaxHeaderView *)self.mainTableView.tableHeaderView layoutHeaderViewForScrollViewOffset:scrollView.contentOffset];
-    }
-}
-
-#pragma mark -
-#pragma mark UITableViewDatasource
-
-
-- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell * cell = [self customCellForIndex:indexPath];
-    NSDictionary *comment = self.story[kCommentsKey][indexPath.row];
-    [(StoryCommentCell *)cell  configureCommentCellForComment:comment];
-    return cell;
-}
-
-- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    CGFloat cellHeight = 0.0;
-    NSDictionary *commentDetails = self.story[kCommentsKey][indexPath.row];
-    NSString *comment = commentDetails[kCommentKey];
-    
-    cellHeight += [StoryCommentCell cellHeightForComment:comment];
-    return cellHeight;
-}
-
-- (UITableViewCell *)customCellForIndex:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = nil;
-    NSString * detailId = kCellIdentifier;
-    cell = [self.mainTableView dequeueReusableCellWithIdentifier:detailId];
-    if (!cell)
-    {
-        cell = [StoryCommentCell storyCommentCellForTableWidth:self.mainTableView.frame.size.width];
-    }
-    return cell;
+#warning Incomplete implementation, return the number of rows
+    return 0;
 }
 
 /*
