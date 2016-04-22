@@ -34,6 +34,4 @@
 }
 */
 
-- (IBAction)xiayibu1Action:(UIButton *)sender forEvent:(UIEvent *)event {
-}
 @end
