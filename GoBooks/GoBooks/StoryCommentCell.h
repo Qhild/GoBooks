@@ -18,8 +18,6 @@ static NSString *kCellIdentifier = @"storyCellId";
 
 @interface StoryCommentCell : UITableViewCell
 + (void)setTableViewWidth:(CGFloat)tableWidth;
-+ (void)setTableViewHeight:(CGFloat)tableHeight;
-
 + (id)storyCommentCellForTableWidth:(CGFloat)width;
 + (CGFloat)cellHeightForComment:(NSString *)comment;
 - (void)configureCommentCellForComment:(NSDictionary *)comment;
