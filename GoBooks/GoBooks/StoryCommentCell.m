@@ -66,12 +66,6 @@ static CGFloat kStandardLabelHeight = 20.0f;
     kTableViewWidth = tableWidth;
 }
 
-+ (void)setTableViewHeight:(CGFloat)tableHeight
-{
-
-}
-
-
 + (id)storyCommentCellForTableWidth:(CGFloat)width
 {
     StoryCommentCell *cell = [[StoryCommentCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:kCellIdentifier];

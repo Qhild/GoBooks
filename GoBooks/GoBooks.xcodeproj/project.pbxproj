@@ -41,6 +41,12 @@
 		101F10AA1CC4AECD0082789C /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F10A31CC4AECD0082789C /* UIView+SDExtension.m */; };
 		101F10AE1CC4AEF00082789C /* SDCycleScrollView.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 101F10AB1CC4AEF00082789C /* SDCycleScrollView.xcconfig */; };
 		101F10AF1CC4AEF00082789C /* SDCycleScrollView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 101F10AC1CC4AEF00082789C /* SDCycleScrollView-dummy.m */; };
+		10326C3A1CCA0F7D003395C2 /* BookDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10326C391CCA0F7D003395C2 /* BookDetailTableViewController.m */; };
+		10326C3D1CCA0FD9003395C2 /* HbcTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10326C3C1CCA0FD9003395C2 /* HbcTableViewController.m */; };
+		10326C3F1CCA101B003395C2 /* ClassifyStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10326C3E1CCA101B003395C2 /* ClassifyStoryboard.storyboard */; };
+		10326C471CCA1111003395C2 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 10326C421CCA1111003395C2 /* UIImage+ImageEffects.m */; };
+		10326C481CCA1111003395C2 /* StoryCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 10326C441CCA1111003395C2 /* StoryCommentCell.m */; };
+		10326C491CCA1111003395C2 /* ParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10326C461CCA1111003395C2 /* ParallaxHeaderView.m */; };
 		432C17FA311A2E166C5ED735 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D0DA90D1638131C39320C9 /* libPods.a */; };
 		9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA2F1CC3369F00BF1DD1 /* HomeViewController.m */; };
 		9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA321CC336AE00BF1DD1 /* SiginViewController.m */; };
@@ -130,6 +136,17 @@
 		101F10AB1CC4AEF00082789C /* SDCycleScrollView.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = SDCycleScrollView.xcconfig; sourceTree = "<group>"; };
 		101F10AC1CC4AEF00082789C /* SDCycleScrollView-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SDCycleScrollView-dummy.m"; sourceTree = "<group>"; };
 		101F10AD1CC4AEF00082789C /* SDCycleScrollView-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SDCycleScrollView-prefix.pch"; sourceTree = "<group>"; };
+		10326C381CCA0F7D003395C2 /* BookDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDetailTableViewController.h; sourceTree = "<group>"; };
+		10326C391CCA0F7D003395C2 /* BookDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDetailTableViewController.m; sourceTree = "<group>"; };
+		10326C3B1CCA0FD9003395C2 /* HbcTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HbcTableViewController.h; sourceTree = "<group>"; };
+		10326C3C1CCA0FD9003395C2 /* HbcTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HbcTableViewController.m; sourceTree = "<group>"; };
+		10326C3E1CCA101B003395C2 /* ClassifyStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ClassifyStoryboard.storyboard; sourceTree = "<group>"; };
+		10326C411CCA1111003395C2 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		10326C421CCA1111003395C2 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		10326C431CCA1111003395C2 /* StoryCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryCommentCell.h; sourceTree = "<group>"; };
+		10326C441CCA1111003395C2 /* StoryCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryCommentCell.m; sourceTree = "<group>"; };
+		10326C451CCA1111003395C2 /* ParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxHeaderView.h; sourceTree = "<group>"; };
+		10326C461CCA1111003395C2 /* ParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxHeaderView.m; sourceTree = "<group>"; };
 		424E5137E9578C86BC9A9B10 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		9043EA0DCFD1DD59BFAAABC4 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		9575AA2E1CC3369F00BF1DD1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
@@ -221,9 +238,6 @@
 		100284C81CC20F6300BAE0D8 /* GoBooks */ = {
 			isa = PBXGroup;
 			children = (
-				95FC1D431CC9F00C00A53C62 /* SCNavTabBar */,
-				95FC1D3F1CC9EFBC00A53C62 /* ViewControllers */,
-				95FC1D381CC9EF2D00A53C62 /* Views */,
 				100284FF1CC219CD00BAE0D8 /* Utilities */,
 				100285001CC219F500BAE0D8 /* Constant */,
 				100285011CC21A0A00BAE0D8 /* 3rd */,
@@ -291,6 +305,8 @@
 		100285011CC21A0A00BAE0D8 /* 3rd */ = {
 			isa = PBXGroup;
 			children = (
+				10326C401CCA10F9003395C2 /* Extensions */,
+				95FC1D381CC9EF2D00A53C62 /* Views */,
 				101F10941CC4AE9F0082789C /* SDCycleScrollView */,
 			);
 			name = 3rd;
@@ -311,6 +327,7 @@
 				100284D81CC20F6300BAE0D8 /* Assets.xcassets */,
 				100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */,
 				101F108A1CC48BE80082789C /* homeStoryboard.storyboard */,
+				10326C3E1CCA101B003395C2 /* ClassifyStoryboard.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -338,6 +355,10 @@
 				9594A4701CC9F6D30005505C /* RetrieveTwoViewController.m */,
 				9594A4721CC9F7E20005505C /* SettingViewController.h */,
 				9594A4731CC9F7E20005505C /* SettingViewController.m */,
+				10326C381CCA0F7D003395C2 /* BookDetailTableViewController.h */,
+				10326C391CCA0F7D003395C2 /* BookDetailTableViewController.m */,
+				10326C3B1CCA0FD9003395C2 /* HbcTableViewController.h */,
+				10326C3C1CCA0FD9003395C2 /* HbcTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -374,6 +395,19 @@
 			name = "Support Files";
 			sourceTree = "<group>";
 		};
+		10326C401CCA10F9003395C2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				10326C411CCA1111003395C2 /* UIImage+ImageEffects.h */,
+				10326C421CCA1111003395C2 /* UIImage+ImageEffects.m */,
+				10326C431CCA1111003395C2 /* StoryCommentCell.h */,
+				10326C441CCA1111003395C2 /* StoryCommentCell.m */,
+				10326C451CCA1111003395C2 /* ParallaxHeaderView.h */,
+				10326C461CCA1111003395C2 /* ParallaxHeaderView.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
 		4D4370BFC7A1B185C6772F1C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -386,6 +420,8 @@
 		95FC1D381CC9EF2D00A53C62 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				95FC1D431CC9F00C00A53C62 /* SCNavTabBar */,
+				95FC1D3F1CC9EFBC00A53C62 /* ViewControllers */,
 				95FC1D391CC9EF7D00A53C62 /* SCPopView.h */,
 				95FC1D3A1CC9EF7D00A53C62 /* SCPopView.m */,
 				95FC1D3C1CC9EFA400A53C62 /* SCNavTabBar.h */,
@@ -538,6 +574,7 @@
 			files = (
 				100284DC1CC20F6300BAE0D8 /* LaunchScreen.storyboard in Resources */,
 				101F108D1CC4AC0F0082789C /* h1.jpg in Resources */,
+				10326C3F1CCA101B003395C2 /* ClassifyStoryboard.storyboard in Resources */,
 				100284D91CC20F6300BAE0D8 /* Assets.xcassets in Resources */,
 				101F10931CC4AC1B0082789C /* h4.jpg in Resources */,
 				101F108B1CC48BE80082789C /* homeStoryboard.storyboard in Resources */,
@@ -618,8 +655,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10326C3A1CCA0F7D003395C2 /* BookDetailTableViewController.m in Sources */,
 				101F10A81CC4AECD0082789C /* TADotView.m in Sources */,
 				9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */,
+				10326C3D1CCA0FD9003395C2 /* HbcTableViewController.m in Sources */,
 				101F10AA1CC4AECD0082789C /* UIView+SDExtension.m in Sources */,
 				100284D71CC20F6300BAE0D8 /* GoBooks.xcdatamodeld in Sources */,
 				95FC1D421CC9F00000A53C62 /* SCNavTabBarController.m in Sources */,
@@ -627,13 +666,16 @@
 				101F10A71CC4AECD0082789C /* TAAnimatedDotView.m in Sources */,
 				9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */,
 				100284D11CC20F6300BAE0D8 /* ViewController.m in Sources */,
+				10326C481CCA1111003395C2 /* StoryCommentCell.m in Sources */,
 				9594A46E1CC9F6C10005505C /* RetrieveOneViewController.m in Sources */,
 				100284CE1CC20F6300BAE0D8 /* AppDelegate.m in Sources */,
 				9575AA361CC336C800BF1DD1 /* SiginUpViewController.m in Sources */,
+				10326C471CCA1111003395C2 /* UIImage+ImageEffects.m in Sources */,
 				9594A46B1CC9F5E30005505C /* MineTableViewController.m in Sources */,
 				95FC1D491CC9F11700A53C62 /* fenleiViewController.m in Sources */,
 				101F10A61CC4AECD0082789C /* TAAbstractDotView.m in Sources */,
 				9594A4741CC9F7E20005505C /* SettingViewController.m in Sources */,
+				10326C491CCA1111003395C2 /* ParallaxHeaderView.m in Sources */,
 				95FC1D3B1CC9EF7D00A53C62 /* SCPopView.m in Sources */,
 				100284CB1CC20F6300BAE0D8 /* main.m in Sources */,
 				101F10A91CC4AECD0082789C /* TAPageControl.m in Sources */,
