@@ -118,6 +118,10 @@
     [self signInWithUsername:username andPassword:password];
 }
 
+- (IBAction)backAction:(UIBarButtonItem *)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
+
 
 
 //当键盘右下角的按钮按了以后执行这个方法

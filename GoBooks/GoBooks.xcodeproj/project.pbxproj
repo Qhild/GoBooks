@@ -44,6 +44,7 @@
 		432C17FA311A2E166C5ED735 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6D0DA90D1638131C39320C9 /* libPods.a */; };
 		950E61811CC9C5150046C9E4 /* RetrieveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950E61801CC9C5150046C9E4 /* RetrieveViewController.m */; };
 		950E61841CC9C52F0046C9E4 /* RetrieveOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950E61831CC9C52F0046C9E4 /* RetrieveOneViewController.m */; };
+		950E61871CC9CA1F0046C9E4 /* MineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 950E61861CC9CA1F0046C9E4 /* MineTableViewController.m */; };
 		9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA2F1CC3369F00BF1DD1 /* HomeViewController.m */; };
 		9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA321CC336AE00BF1DD1 /* SiginViewController.m */; };
 		9575AA361CC336C800BF1DD1 /* SiginUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA351CC336C800BF1DD1 /* SiginUpViewController.m */; };
@@ -130,6 +131,8 @@
 		950E61801CC9C5150046C9E4 /* RetrieveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetrieveViewController.m; sourceTree = "<group>"; };
 		950E61821CC9C52E0046C9E4 /* RetrieveOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetrieveOneViewController.h; sourceTree = "<group>"; };
 		950E61831CC9C52F0046C9E4 /* RetrieveOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetrieveOneViewController.m; sourceTree = "<group>"; };
+		950E61851CC9CA1F0046C9E4 /* MineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewController.h; sourceTree = "<group>"; };
+		950E61861CC9CA1F0046C9E4 /* MineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewController.m; sourceTree = "<group>"; };
 		9575AA2E1CC3369F00BF1DD1 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		9575AA2F1CC3369F00BF1DD1 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		9575AA311CC336AE00BF1DD1 /* SiginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiginViewController.h; sourceTree = "<group>"; };
@@ -313,6 +316,8 @@
 				950E61801CC9C5150046C9E4 /* RetrieveViewController.m */,
 				950E61821CC9C52E0046C9E4 /* RetrieveOneViewController.h */,
 				950E61831CC9C52F0046C9E4 /* RetrieveOneViewController.m */,
+				950E61851CC9CA1F0046C9E4 /* MineTableViewController.h */,
+				950E61861CC9CA1F0046C9E4 /* MineTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -565,6 +570,7 @@
 			files = (
 				101F10A81CC4AECD0082789C /* TADotView.m in Sources */,
 				9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */,
+				950E61871CC9CA1F0046C9E4 /* MineTableViewController.m in Sources */,
 				101F10AA1CC4AECD0082789C /* UIView+SDExtension.m in Sources */,
 				100284D71CC20F6300BAE0D8 /* GoBooks.xcdatamodeld in Sources */,
 				101F10A51CC4AECD0082789C /* SDCycleScrollView.m in Sources */,

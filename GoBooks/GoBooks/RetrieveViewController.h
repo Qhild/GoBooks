@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface RetrieveViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *usernameTF;
+@property (weak, nonatomic) IBOutlet UITextField *emailTF;
+- (IBAction)xiayibuAction:(UIButton *)sender forEvent:(UIEvent *)event;
 
 @end

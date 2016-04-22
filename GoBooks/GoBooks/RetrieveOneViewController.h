@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface RetrieveOneViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *passwordTF;
+@property (weak, nonatomic) IBOutlet UITextField *confirmPwdTF;
+- (IBAction)xiayibu1Action:(UIButton *)sender forEvent:(UIEvent *)event;
 
 @end
