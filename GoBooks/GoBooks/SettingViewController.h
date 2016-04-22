@@ -12,5 +12,7 @@
 - (IBAction)pickAction:(UITapGestureRecognizer *)sender;
 @property (weak, nonatomic) IBOutlet UIImageView *photoIV;
 - (IBAction)portraitAction:(UIButton *)sender forEvent:(UIEvent *)event;
+@property (weak, nonatomic) IBOutlet UITextField *usernameTF;
+@property (weak, nonatomic) IBOutlet UITextField *usersexTF;
 
 @end
