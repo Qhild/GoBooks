@@ -7,8 +7,15 @@
 //
 
 #import "BookDetailTableViewController.h"
+#import "ParallaxHeaderView.h"
+#import "StoryCommentCell.h"
 
 @interface BookDetailTableViewController ()
+
+@property (weak, nonatomic) IBOutlet UITableView *mainTableView;
+
+
+@property (nonatomic) NSDictionary *story;
 
 @end
 
@@ -17,12 +24,36 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
+//    UIButton *backHbc = [[UIButton alloc]init];
+//    backHbc.frame = CGRectMake(10, 10, 50, 50);
+//    [backHbc setTitle:@"返回上一页" forState:UIControlStateNormal];
+//    UIImage *imageHbc = [UIImage imageNamed:@"backHbc.png"];
+//    [backHbc setBackgroundImage:imageHbc forState:UIControlStateHighlighted];
+//    backHbc.font = [UIButton systemFontOfSize:30];
+//    [backHbc addTarget:self action:@selector(backHbcClick:) forControlEvents:UIControlEventTouchUpInside];
+//    [self.view addSubview:backHbc];
     
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    _mainTableView.tableFooterView = [[UIView alloc]init];
+    [StoryCommentCell setTableViewWidth:self.mainTableView.frame.size.width];
+
+
+//  self.navigationController.navigationBarHidden=YES;
+    ParallaxHeaderView *headerView = [ParallaxHeaderView parallaxHeaderViewWithCGSize:CGSizeMake(self.mainTableView.frame.size.width, 180)];
+    
+//    ParallaxHeaderView *headerView =  [[ParallaxHeaderView alloc] initWithFrame:CGRectMake(0, 0, self.mainTableView.frame.size.width, 180)];
+
+    
+//    ParallaxHeaderView *headerView = [[ParallaxHeaderView alloc] initWithFrame:CGRectMake(0, 0,self.mainTableView.frame.size.width, 180)];
+//    [headerView initialSetup];
+//    return headerView;
+    
+    
+    headerView.headerTitleLabel.text = self.story[@"story"];
+    headerView.headerImage = [UIImage imageNamed:@"武侠"];
+    
+    [self.mainTableView setTableHeaderView:headerView];
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -32,15 +63,62 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
+    
     return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    NSInteger numOfRows = [self.story[kCommentsKey] count];
+    return numOfRows;
 }
 
+//
+
+#pragma mark -
+#pragma mark UISCrollViewDelegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+{
+    if (scrollView == self.mainTableView)
+    {
+        // pass the current offset of the UITableView so that the ParallaxHeaderView layouts the subViews.
+        [(ParallaxHeaderView *)self.mainTableView.tableHeaderView layoutHeaderViewForScrollViewOffset:scrollView.contentOffset];
+    }
+}
+
+#pragma mark -
+#pragma mark UITableViewDatasource
+
+
+- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    UITableViewCell * cell = [self customCellForIndex:indexPath];
+    NSDictionary *comment = self.story[kCommentsKey][indexPath.row];
+    [(StoryCommentCell *)cell  configureCommentCellForComment:comment];
+    return cell;
+}
+
+- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    CGFloat cellHeight = 0.0;
+    NSDictionary *commentDetails = self.story[kCommentsKey][indexPath.row];
+    NSString *comment = commentDetails[kCommentKey];
+    
+    cellHeight += [StoryCommentCell cellHeightForComment:comment];
+    return cellHeight;
+}
+
+- (UITableViewCell *)customCellForIndex:(NSIndexPath *)indexPath
+{
+    UITableViewCell *cell = nil;
+    NSString * detailId = kCellIdentifier;
+    cell = [self.mainTableView dequeueReusableCellWithIdentifier:detailId];
+    if (!cell)
+    {
+        cell = [StoryCommentCell storyCommentCellForTableWidth:self.mainTableView.frame.size.width];
+    }
+    return cell;
+}
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
