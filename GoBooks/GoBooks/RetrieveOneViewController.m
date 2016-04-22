@@ -1,18 +1,18 @@
 //
-//  SettingViewController.m
+//  RetrieveOneViewController.m
 //  GoBooks
 //
 //  Created by xu on 16/4/22.
 //  Copyright © 2016年 GBSeventh. All rights reserved.
 //
 
-#import "SettingViewController.h"
+#import "RetrieveOneViewController.h"
 
-@interface SettingViewController ()
+@interface RetrieveOneViewController ()
 
 @end
 
-@implementation SettingViewController
+@implementation RetrieveOneViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,8 +34,4 @@
 }
 */
 
-- (IBAction)pickAction:(UITapGestureRecognizer *)sender {
-}
-- (IBAction)portraitAction:(UIButton *)sender forEvent:(UIEvent *)event {
-}
 @end

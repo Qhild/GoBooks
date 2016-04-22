@@ -1,18 +1,18 @@
 //
-//  zhaoViewController.m
+//  RetrieveTwoViewController.m
 //  GoBooks
 //
-//  Created by xu on 16/4/17.
+//  Created by xu on 16/4/22.
 //  Copyright © 2016年 GBSeventh. All rights reserved.
 //
 
-#import "zhaoViewController.h"
+#import "RetrieveTwoViewController.h"
 
-@interface zhaoViewController ()
+@interface RetrieveTwoViewController ()
 
 @end
 
-@implementation zhaoViewController
+@implementation RetrieveTwoViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -35,17 +35,5 @@
 */
 
 - (IBAction)xiayibuAction:(UIButton *)sender forEvent:(UIEvent *)event {
-    NSString *username = _usernameTF.text;
-    NSString *email = _emailTF.text;
-    /*if (username.length == 0 || email.length == 0) {
-        [Utilities popUpAlertViewWithMsg:@"请填写所有信息" andTitle:nil onView:self];
-        return;
-    }
-    
-    //让导航条失去交互能力
-    self.navigationController.view.userInteractionEnabled = NO;
-    //菊花转啊转
-    UIActivityIndicatorView *avi = [Utilities getCoverOnView:self.view];
-    */
 }
 @end
