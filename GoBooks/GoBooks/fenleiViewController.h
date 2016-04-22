@@ -1,5 +1,5 @@
 //
-//  RetrieveViewController.h
+//  fenleiViewController.h
 //  GoBooks
 //
 //  Created by xu on 16/4/22.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RetrieveViewController : UIViewController
+@interface fenleiViewController : UIViewController
 
 @end
