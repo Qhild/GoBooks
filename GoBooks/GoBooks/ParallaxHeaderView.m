@@ -18,7 +18,7 @@
 @property (nonatomic) IBOutlet UIImageView *bluredImageView;
 @end
 
-#define kDefaultHeaderFrame CGRectMake(0, 0, self.frame.size.width, self.frame.size.height)
+#define kDefaultHeaderFrame CGRectMake(0, 64, self.frame.size.width, self.frame.size.height)
 
 static CGFloat kParallaxDeltaFactor = 0.5f;
 static CGFloat kMaxTitleAlphaOffset = 100.0f;

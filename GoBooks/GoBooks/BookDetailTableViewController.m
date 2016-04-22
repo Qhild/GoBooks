@@ -28,9 +28,12 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
     [StoryCommentCell setTableViewWidth:self.mainTableView.frame.size.width];
     
-    ParallaxHeaderView *headerView = [ParallaxHeaderView parallaxHeaderViewWithCGSize:CGSizeMake(self.mainTableView.frame.size.width, 180)];
+    ParallaxHeaderView *headerView = [ParallaxHeaderView parallaxHeaderViewWithCGSize:CGSizeMake(self.mainTableView.frame.size.width, 130)];
+    
+
     headerView.headerTitleLabel.text = self.story[@"story"];
     headerView.headerImage = [UIImage imageNamed:@"武侠"];
     
@@ -42,32 +45,33 @@
     // Dispose of any resources that can be recreated.
 }
 
-#pragma mark -
-#pragma mark UITableViewDatasource
+//#pragma mark -
+//#pragma mark UITableViewDatasource
+//
+//- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+//{
+//    NSInteger numOfRows = [self.story[kCommentsKey] count];
+//    return numOfRows;
+//}
 
-- (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    NSInteger numOfRows = [self.story[kCommentsKey] count];
-    return numOfRows;
-}
+//- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    CGFloat cellHeight = 0.0;
+//    NSDictionary *commentDetails = self.story[kCommentsKey][indexPath.row];
+//    NSString *comment = commentDetails[kCommentKey];
+//    
+//    cellHeight += [StoryCommentCell cellHeightForComment:comment];
+//    return cellHeight;
+//}
 
-- (CGFloat) tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    CGFloat cellHeight = 0.0;
-    NSDictionary *commentDetails = self.story[kCommentsKey][indexPath.row];
-    NSString *comment = commentDetails[kCommentKey];
-    
-    cellHeight += [StoryCommentCell cellHeightForComment:comment];
-    return cellHeight;
-}
-
-- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    UITableViewCell * cell = [self customCellForIndex:indexPath];
-    NSDictionary *comment = self.story[kCommentsKey][indexPath.row];
-    [(StoryCommentCell *)cell  configureCommentCellForComment:comment];
-    return cell;
-}
+//- (UITableViewCell*)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+//{
+//    UITableViewCell * cell = [self customCellForIndex:indexPath];
+//
+//    NSDictionary *comment = self.story[kCommentsKey][indexPath.row];
+//    [(StoryCommentCell *)cell  configureCommentCellForComment:comment];
+//    return cell;
+//}
 
 #pragma mark -
 #pragma mark UISCrollViewDelegate
@@ -80,17 +84,17 @@
         [(ParallaxHeaderView *)self.mainTableView.tableHeaderView layoutHeaderViewForScrollViewOffset:scrollView.contentOffset];
     }
 }
-- (UITableViewCell *)customCellForIndex:(NSIndexPath *)indexPath
-{
-    UITableViewCell *cell = nil;
-    NSString * detailId = kCellIdentifier;
-    cell = [self.mainTableView dequeueReusableCellWithIdentifier:detailId];
-    if (!cell)
-    {
-        cell = [StoryCommentCell storyCommentCellForTableWidth:self.mainTableView.frame.size.width];
-    }
-    return cell;
-}
+//- (UITableViewCell *)customCellForIndex:(NSIndexPath *)indexPath
+//{
+//    UITableViewCell *cell = nil;
+//    NSString * detailId = kCellIdentifier;
+//    cell = [self.mainTableView dequeueReusableCellWithIdentifier:detailId];
+//    if (!cell)
+//    {
+//        cell = [StoryCommentCell storyCommentCellForTableWidth:self.mainTableView.frame.size.width];
+//    }
+//    return cell;
+//}
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
