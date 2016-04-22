@@ -45,7 +45,6 @@
 		9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA2F1CC3369F00BF1DD1 /* HomeViewController.m */; };
 		9575AA331CC336AE00BF1DD1 /* SiginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA321CC336AE00BF1DD1 /* SiginViewController.m */; };
 		9575AA361CC336C800BF1DD1 /* SiginUpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA351CC336C800BF1DD1 /* SiginUpViewController.m */; };
-		9575AA391CC3376F00BF1DD1 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA381CC3376F00BF1DD1 /* MineViewController.m */; };
 		9575AA421CC36B0F00BF1DD1 /* TabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA411CC36B0F00BF1DD1 /* TabViewController.m */; };
 		9575AA541CC3956000BF1DD1 /* zhaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9575AA531CC3956000BF1DD1 /* zhaoViewController.m */; };
 		9593CD331CC4A512000F83B5 /* zhao2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9593CD321CC4A512000F83B5 /* zhao2ViewController.m */; };
@@ -133,8 +132,6 @@
 		9575AA321CC336AE00BF1DD1 /* SiginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiginViewController.m; sourceTree = "<group>"; };
 		9575AA341CC336C800BF1DD1 /* SiginUpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiginUpViewController.h; sourceTree = "<group>"; };
 		9575AA351CC336C800BF1DD1 /* SiginUpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiginUpViewController.m; sourceTree = "<group>"; };
-		9575AA371CC3376F00BF1DD1 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
-		9575AA381CC3376F00BF1DD1 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		9575AA401CC36B0F00BF1DD1 /* TabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabViewController.h; sourceTree = "<group>"; };
 		9575AA411CC36B0F00BF1DD1 /* TabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabViewController.m; sourceTree = "<group>"; };
 		9575AA521CC3956000BF1DD1 /* zhaoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zhaoViewController.h; sourceTree = "<group>"; };
@@ -308,8 +305,6 @@
 				100284D01CC20F6300BAE0D8 /* ViewController.m */,
 				9575AA2E1CC3369F00BF1DD1 /* HomeViewController.h */,
 				9575AA2F1CC3369F00BF1DD1 /* HomeViewController.m */,
-				9575AA371CC3376F00BF1DD1 /* MineViewController.h */,
-				9575AA381CC3376F00BF1DD1 /* MineViewController.m */,
 				9575AA401CC36B0F00BF1DD1 /* TabViewController.h */,
 				9575AA411CC36B0F00BF1DD1 /* TabViewController.m */,
 				9575AA521CC3956000BF1DD1 /* zhaoViewController.h */,
@@ -586,7 +581,6 @@
 				101F10A91CC4AECD0082789C /* TAPageControl.m in Sources */,
 				101F10A41CC4AECD0082789C /* SDCollectionViewCell.m in Sources */,
 				1002850A1CC21AC200BAE0D8 /* StorageMgr.m in Sources */,
-				9575AA391CC3376F00BF1DD1 /* MineViewController.m in Sources */,
 				101F10AF1CC4AEF00082789C /* SDCycleScrollView-dummy.m in Sources */,
 				9575AA301CC3369F00BF1DD1 /* HomeViewController.m in Sources */,
 				100285071CC21AAB00BAE0D8 /* Utilities.m in Sources */,
