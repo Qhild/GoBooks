@@ -1,22 +1,22 @@
 //
-//  MineTableViewController.m
+//  SettingTableViewController.m
 //  GoBooks
 //
-//  Created by xu on 16/4/22.
+//  Created by xu on 16/4/23.
 //  Copyright © 2016年 GBSeventh. All rights reserved.
 //
 
-#import "MineTableViewController.h"
+#import "SettingTableViewController.h"
 
-@interface MineTableViewController ()
+@interface SettingTableViewController ()
 
 @end
 
-@implementation MineTableViewController
+@implementation SettingTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _tableview.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -28,10 +28,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+/*
 #pragma mark - Table view data source
 
-/*
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
     return 0;
