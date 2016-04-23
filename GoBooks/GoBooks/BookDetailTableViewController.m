@@ -31,7 +31,7 @@
     
     [StoryCommentCell setTableViewWidth:self.mainTableView.frame.size.width];
     
-    ParallaxHeaderView *headerView = [ParallaxHeaderView parallaxHeaderViewWithCGSize:CGSizeMake(self.mainTableView.frame.size.width, 130)];
+    ParallaxHeaderView *headerView = [ParallaxHeaderView parallaxHeaderViewWithCGSize:CGSizeMake(self.mainTableView.frame.size.width, 100)];
     
 
     headerView.headerTitleLabel.text = self.story[@"story"];
