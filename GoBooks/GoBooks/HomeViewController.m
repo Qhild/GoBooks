@@ -36,13 +36,12 @@
     NSArray *imageNames = @[@"h1.jpg",@"h2.jpg",@"h3.jpg",@"h4.jpg"];
 
     // 情景三：图片配文字
-    NSArray *titles = @[@"阅读让生活充实”",@"书是人类进步的阶梯",@"腹有诗书气自华",@"悠闲读书 意在怡情 情之所致"];
+    NSArray *titles = @[@"阅读让生活充实💪🏼",@"书是人类进步的阶梯",@"腹有诗书气自华",@"悠闲读书 意在怡情 情之所致"];
 
-    CGFloat w = self.view.bounds.size.width;
+    CGFloat w = self.view.frame.size.width;
 
     // 本地加载 --- 创建不带标题的图片轮播器
     SDCycleScrollView *cycleScrollView = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 44, w, 160) shouldInfiniteLoop:YES imageNamesGroup:imageNames];
-    cycleScrollView.delegate = self;
     //轮播点动画
     cycleScrollView.pageControlStyle = SDCycleScrollViewPageContolStyleClassic;
 
