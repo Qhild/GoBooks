@@ -230,6 +230,9 @@
                                                 <constraint firstAttribute="bottom" secondItem="ocr-CJ-auX" secondAttribute="bottom" constant="12" id="zt0-81-i9C"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="xSf-wj-vhR" kind="show" id="2Vg-ZF-pP2"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="2" id="xCg-PO-tfE">
                                         <rect key="frame" x="0.0" y="308" width="320" height="2"/>
@@ -264,6 +267,9 @@
                                                 <constraint firstItem="8BW-x2-hdp" firstAttribute="leading" secondItem="a57-L6-ksI" secondAttribute="leading" constant="35" id="wdN-74-7d9"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="sTk-sP-HZO" kind="show" id="nyO-Se-ujd"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                                 <attributedString key="userComments">
