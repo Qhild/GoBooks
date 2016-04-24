@@ -299,7 +299,7 @@
                                     </constraints>
                                     <textInputTraits key="textInputTraits"/>
                                     <connections>
-                                        <outlet property="delegate" destination="jGs-gQ-Pjp" id="LN8-SK-Hgq"/>
+                                        <outlet property="delegate" destination="jGs-gQ-Pjp" id="s1U-wX-g9Y"/>
                                     </connections>
                                 </searchBar>
                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRq-PB-r09">
@@ -324,7 +324,7 @@
                                 </mask>
                             </variation>
                             <connections>
-                                <outlet property="delegate" destination="jGs-gQ-Pjp" id="chg-S4-A5c"/>
+                                <outlet property="delegate" destination="jGs-gQ-Pjp" id="tc2-t1-TCL"/>
                             </connections>
                         </scrollView>
                         <view key="tableFooterView" contentMode="scaleToFill" id="NfU-f3-DoL">
@@ -347,7 +347,6 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
-                                        <action selector="homebtn2:forEvent:" destination="jGs-gQ-Pjp" eventType="touchUpInside" id="08u-Iz-IGe"/>
                                         <segue destination="2Ep-rA-Zsa" kind="show" id="DI1-HW-D3c"/>
                                     </connections>
                                 </button>
@@ -367,7 +366,6 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
-                                        <action selector="homebtn4:forEvent:" destination="jGs-gQ-Pjp" eventType="touchUpInside" id="SGV-ba-lDZ"/>
                                         <segue destination="2Ep-rA-Zsa" kind="show" id="TLQ-zc-3sA"/>
                                     </connections>
                                 </button>
@@ -387,7 +385,6 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
-                                        <action selector="homebtn1:forEvent:" destination="jGs-gQ-Pjp" eventType="touchUpInside" id="9Mo-hz-JGS"/>
                                         <segue destination="2Ep-rA-Zsa" kind="show" id="zJN-WS-MuH"/>
                                     </connections>
                                 </button>
@@ -463,7 +460,6 @@
                                         </userDefinedRuntimeAttribute>
                                     </userDefinedRuntimeAttributes>
                                     <connections>
-                                        <action selector="homebtn3:forEvent:" destination="jGs-gQ-Pjp" eventType="touchUpInside" id="GjQ-Cv-bJM"/>
                                         <segue destination="2Ep-rA-Zsa" kind="show" id="6Tl-Kl-TqS"/>
                                     </connections>
                                 </button>
@@ -506,9 +502,9 @@
                     <navigationItem key="navigationItem" title="首页" id="rT0-62-dgg"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="CarouselView" destination="F5K-yL-FUa" id="1PA-Fa-u8z"/>
-                        <outlet property="homeTableView" destination="c3i-V0-8k6" id="wuB-G7-shS"/>
-                        <outlet property="searchFiled" destination="xEl-tT-SlO" id="nNh-GV-EUH"/>
+                        <outlet property="CarouselView" destination="F5K-yL-FUa" id="ru3-RX-d6O"/>
+                        <outlet property="homeTableView" destination="c3i-V0-8k6" id="5dL-Ov-A0h"/>
+                        <outlet property="searchFiled" destination="xEl-tT-SlO" id="rbl-I3-Pyw"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lhx-E4-Ks2" userLabel="First Responder" sceneMemberID="firstResponder"/>
