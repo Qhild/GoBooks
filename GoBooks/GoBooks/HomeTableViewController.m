@@ -2,7 +2,7 @@
 //  HomeTableViewController.m
 //  GoBooks
 //
-//  Created by Q on 16/4/23.
+//  Created by Q on 16/4/24.
 //  Copyright © 2016年 GBSeventh. All rights reserved.
 //
 
@@ -17,18 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _homeTableView.tableFooterView = [[UIView alloc]init];
-    //    self.view.backgroundColor = [UIColor colorWithRed:0.98 green:0.98 blue:0.98 alpha:0.99];
-    //    UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"005.jpg"]];
-    //    backgroundView.frame = self.view.bounds;
-    //    [self.view addSubview:backgroundView];
-    //
-    //    UIScrollView *demoContainerView = [[UIScrollView alloc] initWithFrame:self.view.frame];
-    //    demoContainerView.contentSize = CGSizeMake(self.view.frame.size.width, 1200);
-    //    [self.view addSubview:demoContainerView];
-    
-    //    self.title = @"轮播Demo";
-    
     // 情景一：采用本地图片实现
     NSArray *imageNames = @[@"h1.jpg",@"h2.jpg",@"h3.jpg",@"h4.jpg"];
     
@@ -49,7 +37,6 @@
     cycleScrollView.scrollDirection = UICollectionViewScrollDirectionHorizontal;
 }
 
-
 #pragma mark - SDCycleScrollViewDelegate
 
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index
@@ -59,10 +46,29 @@
     [self.navigationController pushViewController:[NSClassFromString(@"DemoVCWithXib") new] animated:YES];
 }
 
-
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+//当键盘右下角的按钮按了以后执行这个方法
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [textField resignFirstResponder];
+    return YES;
+}
+//点击屏幕让键盘收回
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.view endEditing:YES];
+}
+- (IBAction)homebtn1:(UIButton *)sender forEvent:(UIEvent *)event {
+}
+
+- (IBAction)homebtn2:(UIButton *)sender forEvent:(UIEvent *)event {
+}
+- (IBAction)homebtn3:(UIButton *)sender forEvent:(UIEvent *)event {
+}
+
+- (IBAction)homebtn4:(UIButton *)sender forEvent:(UIEvent *)event {
 }
 
 #pragma mark - Table view data source
@@ -75,28 +81,6 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 
     return 0;
-}
-
-- (IBAction)homebtn1:(UIButton *)sender forEvent:(UIEvent *)event {
-}
-
-- (IBAction)homebtn2:(UIButton *)sender forEvent:(UIEvent *)event {
-}
-- (IBAction)homebtn3:(UIButton *)sender forEvent:(UIEvent *)event {
-}
-
-- (IBAction)homebtn4:(UIButton *)sender forEvent:(UIEvent *)event {
-}
-
-//点击屏幕让键盘收回
--(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [self.view endEditing:YES];
-}
-
-//当键盘右下角的按钮按了以后执行这个方法
--(BOOL)textFieldShouldReturn:(UITextField *)textField{
-    [textField resignFirstResponder];
-    return YES;
 }
 
 /*
