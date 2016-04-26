@@ -59,6 +59,7 @@
 		9594A46E1CC9F6C10005505C /* RetrieveOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9594A46D1CC9F6C10005505C /* RetrieveOneViewController.m */; };
 		9594A4711CC9F6D30005505C /* RetrieveTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9594A4701CC9F6D30005505C /* RetrieveTwoViewController.m */; };
 		95DB6F981CCCAEAC00640D11 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95DB6F971CCCAEAC00640D11 /* CollectionViewController.m */; };
+		95F5F5F51CCF3C0800DDCFC1 /* PeopleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95F5F5F41CCF3C0800DDCFC1 /* PeopleTableViewController.m */; };
 		95FC1D3B1CC9EF7D00A53C62 /* SCPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FC1D3A1CC9EF7D00A53C62 /* SCPopView.m */; };
 		95FC1D3E1CC9EFA400A53C62 /* SCNavTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FC1D3D1CC9EFA400A53C62 /* SCNavTabBar.m */; };
 		95FC1D421CC9F00000A53C62 /* SCNavTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95FC1D411CC9F00000A53C62 /* SCNavTabBarController.m */; };
@@ -173,6 +174,8 @@
 		9594A4701CC9F6D30005505C /* RetrieveTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetrieveTwoViewController.m; sourceTree = "<group>"; };
 		95DB6F961CCCAEAC00640D11 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
 		95DB6F971CCCAEAC00640D11 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		95F5F5F31CCF3C0800DDCFC1 /* PeopleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleTableViewController.h; sourceTree = "<group>"; };
+		95F5F5F41CCF3C0800DDCFC1 /* PeopleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleTableViewController.m; sourceTree = "<group>"; };
 		95FC1D391CC9EF7D00A53C62 /* SCPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPopView.h; sourceTree = "<group>"; };
 		95FC1D3A1CC9EF7D00A53C62 /* SCPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPopView.m; sourceTree = "<group>"; };
 		95FC1D3C1CC9EFA400A53C62 /* SCNavTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavTabBar.h; sourceTree = "<group>"; };
@@ -372,6 +375,8 @@
 				1009B8AC1CCC545600C8CB98 /* HomeTableViewController.m */,
 				95DB6F961CCCAEAC00640D11 /* CollectionViewController.h */,
 				95DB6F971CCCAEAC00640D11 /* CollectionViewController.m */,
+				95F5F5F31CCF3C0800DDCFC1 /* PeopleTableViewController.h */,
+				95F5F5F41CCF3C0800DDCFC1 /* PeopleTableViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -691,6 +696,7 @@
 				101F10A61CC4AECD0082789C /* TAAbstractDotView.m in Sources */,
 				95DB6F981CCCAEAC00640D11 /* CollectionViewController.m in Sources */,
 				10326C491CCA1111003395C2 /* ParallaxHeaderView.m in Sources */,
+				95F5F5F51CCF3C0800DDCFC1 /* PeopleTableViewController.m in Sources */,
 				95FC1D3B1CC9EF7D00A53C62 /* SCPopView.m in Sources */,
 				100284CB1CC20F6300BAE0D8 /* main.m in Sources */,
 				101F10A91CC4AECD0082789C /* TAPageControl.m in Sources */,
