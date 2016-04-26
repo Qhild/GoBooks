@@ -28,6 +28,7 @@
 		100285261CC221EF00BAE0D8 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285241CC221EF00BAE0D8 /* Bolts.framework */; };
 		100285271CC221EF00BAE0D8 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 100285251CC221EF00BAE0D8 /* Parse.framework */; };
 		1009B8AD1CCC545600C8CB98 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1009B8AC1CCC545600C8CB98 /* HomeTableViewController.m */; };
+		100AA80A1CCF3AD7002567D3 /* PeopleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100AA8091CCF3AD7002567D3 /* PeopleStoryboard.storyboard */; };
 		101F108B1CC48BE80082789C /* homeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 101F108A1CC48BE80082789C /* homeStoryboard.storyboard */; };
 		101F108D1CC4AC0F0082789C /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F108C1CC4AC0F0082789C /* h1.jpg */; };
 		101F108F1CC4AC130082789C /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 101F108E1CC4AC130082789C /* h2.jpg */; };
@@ -118,6 +119,7 @@
 		100285251CC221EF00BAE0D8 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = GoBooks/Parse.framework; sourceTree = "<group>"; };
 		1009B8AB1CCC545600C8CB98 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
 		1009B8AC1CCC545600C8CB98 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		100AA8091CCF3AD7002567D3 /* PeopleStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PeopleStoryboard.storyboard; sourceTree = "<group>"; };
 		101F108A1CC48BE80082789C /* homeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = homeStoryboard.storyboard; sourceTree = "<group>"; };
 		101F108C1CC4AC0F0082789C /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
 		101F108E1CC4AC130082789C /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
@@ -334,6 +336,7 @@
 				100284DA1CC20F6300BAE0D8 /* LaunchScreen.storyboard */,
 				101F108A1CC48BE80082789C /* homeStoryboard.storyboard */,
 				10326C3E1CCA101B003395C2 /* ClassifyStoryboard.storyboard */,
+				100AA8091CCF3AD7002567D3 /* PeopleStoryboard.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -590,6 +593,7 @@
 				101F108B1CC48BE80082789C /* homeStoryboard.storyboard in Resources */,
 				101F10AE1CC4AEF00082789C /* SDCycleScrollView.xcconfig in Resources */,
 				101F10911CC4AC170082789C /* h3.jpg in Resources */,
+				100AA80A1CCF3AD7002567D3 /* PeopleStoryboard.storyboard in Resources */,
 				95FC1D451CC9F03A00A53C62 /* SCNavTabBar.bundle in Resources */,
 				101F108F1CC4AC130082789C /* h2.jpg in Resources */,
 				100284D41CC20F6300BAE0D8 /* Main.storyboard in Resources */,
