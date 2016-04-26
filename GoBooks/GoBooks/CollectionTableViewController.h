@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface CollectionTableViewController : UITableViewController
-- (IBAction)deleteAction:(UIBarButtonItem *)sender;
 
 @end

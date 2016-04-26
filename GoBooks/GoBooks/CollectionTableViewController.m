@@ -104,6 +104,4 @@
         cell.layer.transform = CATransform3DMakeScale(1, 1, 1);
     }];
 }
-- (IBAction)deleteAction:(UIBarButtonItem *)sender {
-}
 @end
