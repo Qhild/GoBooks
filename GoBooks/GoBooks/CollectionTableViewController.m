@@ -17,6 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self tableView];
+    UIRefreshControl *refresh = [[UIRefreshControl alloc] init];
+    refresh.attributedTitle = [[NSAttributedString alloc] initWithString:@"下拉刷新^_^"];
+    [refresh addTarget:self action:@selector(refreshTableView:) forControlEvents:UIControlEventValueChanged];
+    self.refreshControl = refresh;
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -104,4 +108,5 @@
         cell.layer.transform = CATransform3DMakeScale(1, 1, 1);
     }];
 }
+
 @end
